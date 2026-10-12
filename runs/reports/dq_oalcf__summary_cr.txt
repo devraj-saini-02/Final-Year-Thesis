@@ -1,0 +1,60 @@
+Diversity-penalized AL with OAL-CF, CR (7 languages), seed 0, CPU; gamma 0.8 / 0.5 / 0.2
+
+== health
+  21/21 runs OK
+
+One-sided Wilcoxon (the gamma OAL-CF arm lower). Significant (*) only if p < 0.0167 (Bonferroni over 3 planned gammas). With n = 7 the smallest possible p is 0.0078.
+
+== gamma OAL-CF vs baseline OAL-CF (does the extension help OAL-CF?)
+  gamma=0.8  IMLM Eq.1 (authors)  better in 5/7, worse in 2/7 | mean 0.0764 -> 0.0674 | p = 0.1094
+  gamma=0.8  IMLM repo            better in 5/7, worse in 2/7 | mean 0.1161 -> 0.1043 | p = 0.0547
+  gamma=0.8  DCF                  better in 5/7, worse in 2/7 | mean 0.0466 -> 0.0410 | p = 0.1094
+  gamma=0.5  IMLM Eq.1 (authors)  better in 2/7, worse in 5/7 | mean 0.0764 -> 0.0733 | p = 0.6562
+  gamma=0.5  IMLM repo            better in 3/7, worse in 4/7 | mean 0.1161 -> 0.1133 | p = 0.5312
+  gamma=0.5  DCF                  better in 2/7, worse in 5/7 | mean 0.0466 -> 0.0438 | p = 0.6562
+  gamma=0.2  IMLM Eq.1 (authors)  better in 4/7, worse in 3/7 | mean 0.0764 -> 0.0741 | p = 0.3438
+  gamma=0.2  IMLM repo            better in 5/7, worse in 2/7 | mean 0.1161 -> 0.1129 | p = 0.2891
+  gamma=0.2  DCF                  better in 4/7, worse in 3/7 | mean 0.0466 -> 0.0453 | p = 0.4688
+
+== gamma OAL-CF vs gamma OAL (does CF still help under the extension?)
+  gamma=0.8  IMLM Eq.1 (authors)  better in 6/7, worse in 1/7 | mean 0.0954 -> 0.0674 | p = 0.0156  *
+  gamma=0.8  IMLM repo            better in 2/7, worse in 5/7 | mean 0.1003 -> 0.1043 | p = 0.8125
+  gamma=0.8  DCF                  better in 5/7, worse in 2/7 | mean 0.0624 -> 0.0410 | p = 0.0391
+  gamma=0.5  IMLM Eq.1 (authors)  better in 4/7, worse in 3/7 | mean 0.1080 -> 0.0733 | p = 0.1875
+  gamma=0.5  IMLM repo            better in 3/7, worse in 4/7 | mean 0.1137 -> 0.1133 | p = 0.7109
+  gamma=0.5  DCF                  better in 4/7, worse in 3/7 | mean 0.0742 -> 0.0438 | p = 0.1484
+  gamma=0.2  IMLM Eq.1 (authors)  better in 7/7, worse in 0/7 | mean 0.1158 -> 0.0741 | p = 0.0078  *
+  gamma=0.2  IMLM repo            better in 4/7, worse in 3/7 | mean 0.1216 -> 0.1129 | p = 0.3438
+  gamma=0.2  DCF                  better in 7/7, worse in 0/7 | mean 0.0798 -> 0.0453 | p = 0.0078  *
+
+== gamma OAL-CF vs baseline OAL
+  gamma=0.8  IMLM Eq.1 (authors)  better in 6/7, worse in 1/7 | mean 0.1195 -> 0.0674 | p = 0.0156  *
+  gamma=0.8  IMLM repo            better in 3/7, worse in 4/7 | mean 0.1252 -> 0.1043 | p = 0.3438
+  gamma=0.8  DCF                  better in 6/7, worse in 1/7 | mean 0.0789 -> 0.0410 | p = 0.0156  *
+  gamma=0.5  IMLM Eq.1 (authors)  better in 5/7, worse in 2/7 | mean 0.1195 -> 0.0733 | p = 0.0781
+  gamma=0.5  IMLM repo            better in 3/7, worse in 4/7 | mean 0.1252 -> 0.1133 | p = 0.4688
+  gamma=0.5  DCF                  better in 5/7, worse in 2/7 | mean 0.0789 -> 0.0438 | p = 0.0781
+  gamma=0.2  IMLM Eq.1 (authors)  better in 6/7, worse in 1/7 | mean 0.1195 -> 0.0741 | p = 0.0391
+  gamma=0.2  IMLM repo            better in 3/7, worse in 4/7 | mean 0.1252 -> 0.1129 | p = 0.4062
+  gamma=0.2  DCF                  better in 6/7, worse in 1/7 | mean 0.0789 -> 0.0453 | p = 0.0156  *
+
+== annotation volume (mean per run): AL / CF true positives / CF false positives
+  baseline   AL   1272 | CF TP   2976 | CF FP    994
+  gamma=0.8  AL   1272 | CF TP   3009 | CF FP    684
+  gamma=0.5  AL   1272 | CF TP   3015 | CF FP   1026
+  gamma=0.2  AL   1272 | CF TP   2996 | CF FP    879
+
+== how much each gamma changed the selection (al_diversity.csv, mean per session)
+  gamma=0.8: queries shared with plain uncertainty top-8 7.29/8 | distinct clusters among the 8 2.64 | clusters per session 9.3
+  gamma=0.5: queries shared with plain uncertainty top-8 6.89/8 | distinct clusters among the 8 2.95 | clusters per session 9.3
+  gamma=0.2: queries shared with plain uncertainty top-8 6.47/8 | distinct clusters among the 8 3.33 | clusters per session 9.3
+
+== per language, IMLM Eq.1 (authors' reading), OAL / OAL-CF
+  lang            baseline |         gamma 0.8 |         gamma 0.5 |         gamma 0.2
+  hy-AM  0.0352 / 0.0228 | 0.0136 / 0.0149 | 0.0143 / 0.0297 | 0.1129 / 0.0435
+  ckb    0.0560 / 0.0558 | 0.0615 / 0.0340 | 0.0524 / 0.0567 | 0.0454 / 0.0310
+  cv     0.1380 / 0.1361 | 0.1611 / 0.1385 | 0.2419 / 0.0834 | 0.1720 / 0.1305
+  kmr    0.1913 / 0.1303 | 0.1488 / 0.1239 | 0.1701 / 0.1480 | 0.1249 / 0.1152
+  ky     0.1633 / 0.0639 | 0.1624 / 0.0584 | 0.1017 / 0.0768 | 0.1400 / 0.0681
+  sr     0.0310 / 0.0144 | 0.0269 / 0.0228 | 0.0472 / 0.0768 | 0.0268 / 0.0242
+  tt     0.2217 / 0.1114 | 0.0935 / 0.0792 | 0.1284 / 0.0417 | 0.1886 / 0.1064

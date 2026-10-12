@@ -1,0 +1,2 @@
+python3 run_dq.py --run_name sea_oal_t18_g86/vi --lid_target vi --feat_root /Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/data/SoutheastAsiaLID/ecapalang/ --env_name test --auto_weight --auto_mult 10 --min_delta 1e-3 --nworkers 0 --gpus 0
+# via run_dq.py: --dq_gamma 0.86 --dq_threshold 0.18

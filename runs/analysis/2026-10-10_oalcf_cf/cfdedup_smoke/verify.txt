@@ -1,0 +1,60 @@
+
+=== ac_ha_t0
+   PASS  full session count (83)
+   PASS  no NaN/inf in scores.csv
+   PASS  final weights finite
+   PASS  no 'nan' loss / Traceback / Warning-errors in log
+   PASS  cf_dedup.csv one row per session
+   PASS  CF clip totals agree with scores.csv
+   PASS  true CF classes agree with scores.csv
+   PASS  expert + copied = CF clips
+   PASS  command.txt records the threshold
+   PASS  control: bit-identical to baseline scores.csv
+   PASS  control: expert labels every CF clip
+   CF clips 616, expert labels 616 (0% saved), wrong 0 (false alarm->target 0, target->non-target 0)
+   first wrong label at session None; scores first differ from baseline at session None
+   IMLM_eq1          baseline 0.0357  ->  0.0357
+   IMLM_thesis       baseline 0.0460  ->  0.0460
+   IMLM_repo         baseline 0.0482  ->  0.0482
+   IMLM_repo_expert  baseline 0.0482  ->  0.0482
+   DCF               baseline 0.0195  ->  0.0195
+
+=== ac_ha_t0.10
+   PASS  full session count (83)
+   PASS  no NaN/inf in scores.csv
+   PASS  final weights finite
+   PASS  no 'nan' loss / Traceback / Warning-errors in log
+   PASS  cf_dedup.csv one row per session
+   PASS  CF clip totals agree with scores.csv
+   PASS  true CF classes agree with scores.csv
+   PASS  expert + copied = CF clips
+   PASS  command.txt records the threshold
+   PASS  identical to baseline until the first wrong label
+   CF clips 616, expert labels 360 (42% saved), wrong 0 (false alarm->target 0, target->non-target 0)
+   offline prediction on the baseline trajectory: expert 360, wrong 0
+   first wrong label at session None; scores first differ from baseline at session None
+   IMLM_eq1          baseline 0.0357  ->  0.0357
+   IMLM_thesis       baseline 0.0460  ->  0.0417
+   IMLM_repo         baseline 0.0482  ->  0.0482
+   IMLM_repo_expert  baseline 0.0482  ->  0.0438
+   DCF               baseline 0.0195  ->  0.0195
+
+=== ac_yo_t0.10
+   PASS  full session count (83)
+   PASS  no NaN/inf in scores.csv
+   PASS  final weights finite
+   PASS  no 'nan' loss / Traceback / Warning-errors in log
+   PASS  cf_dedup.csv one row per session
+   PASS  CF clip totals agree with scores.csv
+   PASS  true CF classes agree with scores.csv
+   PASS  expert + copied = CF clips
+   PASS  command.txt records the threshold
+   FAIL  identical to baseline until the first wrong label
+   CF clips 1599, expert labels 625 (61% saved), wrong 8 (false alarm->target 8, target->non-target 0)
+   offline prediction on the baseline trajectory: expert 392, wrong 8
+   first wrong label at session 27; scores first differ from baseline at session 27
+   IMLM_eq1          baseline 0.0219  ->  0.1366
+   IMLM_thesis       baseline 0.0396  ->  0.1471
+   IMLM_repo         baseline 0.0407  ->  0.1671
+   IMLM_repo_expert  baseline 0.0407  ->  0.1504
+   DCF               baseline 0.0074  ->  0.0897

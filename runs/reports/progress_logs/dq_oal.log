@@ -1,0 +1,134 @@
+09-13 12:02 === stage 1: gamma=1.0 vs archived baseline OAL (hy-AM, yo, dv)
+09-13 12:02 start: cr_oal_dq100/hy-AM
+09-13 12:02 start: ac_oal_dq100/yo
+09-13 12:11 done:  ac_oal_dq100/yo  exit 0  8 min
+09-13 12:11 start: sa_oal_dq100/dv
+09-13 12:22 done:  sa_oal_dq100/dv  exit 0  11 min
+09-13 12:24 done:  cr_oal_dq100/hy-AM  exit 0  21 min
+  gamma=1.0 cr/hy-AM: scores.csv identical=True  final weights identical=True
+  gamma=1.0 ac/yo: scores.csv identical=True  final weights identical=True
+  gamma=1.0 sa/dv: scores.csv identical=True  final weights identical=True
+STAGE 1 PASSED
+09-13 12:24 === stage 2: 60 runs (gamma 0.8/0.5/0.2 x 20 languages, OAL), 2 at a time
+09-13 12:24 start: cr_oal_dq080/hy-AM
+09-13 12:24 start: cr_oal_dq080/ckb
+09-13 12:49 done:  cr_oal_dq080/hy-AM  exit 0  25 min
+09-13 12:49 start: cr_oal_dq080/cv
+09-13 12:51 done:  cr_oal_dq080/ckb  exit 0  26 min
+09-13 12:51 start: cr_oal_dq080/kmr
+09-13 13:14 done:  cr_oal_dq080/cv  exit 0  25 min
+09-13 13:14 start: cr_oal_dq080/ky
+09-13 13:15 done:  cr_oal_dq080/kmr  exit 0  24 min
+09-13 13:15 start: cr_oal_dq080/sr
+09-13 13:38 done:  cr_oal_dq080/ky  exit 0  24 min
+09-13 13:38 start: cr_oal_dq080/tt
+09-13 13:40 done:  cr_oal_dq080/sr  exit 0  24 min
+09-13 13:40 start: cr_oal_dq050/hy-AM
+09-13 14:03 done:  cr_oal_dq080/tt  exit 0  24 min
+09-13 14:03 start: cr_oal_dq050/ckb
+09-13 14:05 done:  cr_oal_dq050/hy-AM  exit 0  25 min
+09-13 14:05 start: cr_oal_dq050/cv
+09-13 14:27 done:  cr_oal_dq050/ckb  exit 0  24 min
+09-13 14:27 start: cr_oal_dq050/kmr
+09-13 14:31 done:  cr_oal_dq050/cv  exit 0  26 min
+09-13 14:31 start: cr_oal_dq050/ky
+09-13 14:52 done:  cr_oal_dq050/kmr  exit 0  24 min
+09-13 14:52 start: cr_oal_dq050/sr
+09-13 14:55 done:  cr_oal_dq050/ky  exit 0  23 min
+09-13 14:55 start: cr_oal_dq050/tt
+09-13 15:16 done:  cr_oal_dq050/sr  exit 0  23 min
+09-13 15:16 start: cr_oal_dq020/hy-AM
+09-13 15:21 done:  cr_oal_dq050/tt  exit 0  25 min
+09-13 15:21 start: cr_oal_dq020/ckb
+09-13 15:41 done:  cr_oal_dq020/hy-AM  exit 0  25 min
+09-13 15:41 start: cr_oal_dq020/cv
+09-13 15:48 done:  cr_oal_dq020/ckb  exit 0  27 min
+09-13 15:48 start: cr_oal_dq020/kmr
+09-13 16:06 done:  cr_oal_dq020/cv  exit 0  25 min
+09-13 16:06 start: cr_oal_dq020/ky
+09-13 16:12 done:  cr_oal_dq020/kmr  exit 0  23 min
+09-13 16:12 start: cr_oal_dq020/sr
+09-13 16:31 done:  cr_oal_dq020/ky  exit 0  25 min
+09-13 16:31 start: cr_oal_dq020/tt
+09-13 16:37 done:  cr_oal_dq020/sr  exit 0  24 min
+09-13 16:37 start: sea_oal_dq080/yue
+09-13 16:55 done:  sea_oal_dq080/yue  exit 0  17 min
+09-13 16:55 start: sea_oal_dq080/id
+09-13 16:58 done:  cr_oal_dq020/tt  exit 0  26 min
+09-13 16:58 start: sea_oal_dq080/vi
+09-13 17:12 done:  sea_oal_dq080/id  exit 0  17 min
+09-13 17:12 start: sea_oal_dq050/yue
+09-13 17:17 done:  sea_oal_dq080/vi  exit 0  19 min
+09-13 17:17 start: sea_oal_dq050/id
+09-13 17:30 done:  sea_oal_dq050/yue  exit 0  17 min
+09-13 17:30 start: sea_oal_dq050/vi
+09-13 17:32 done:  sea_oal_dq050/id  exit 0  15 min
+09-13 17:32 start: sea_oal_dq020/yue
+09-13 17:46 done:  sea_oal_dq050/vi  exit 0  16 min
+09-13 17:46 start: sea_oal_dq020/id
+09-13 17:48 done:  sea_oal_dq020/yue  exit 0  16 min
+09-13 17:48 start: sea_oal_dq020/vi
+09-13 18:01 done:  sea_oal_dq020/id  exit 0  15 min
+09-13 18:01 start: sa_oal_dq080/cnh
+09-13 18:06 done:  sea_oal_dq020/vi  exit 0  18 min
+09-13 18:06 start: sa_oal_dq080/dv
+09-13 18:14 done:  sa_oal_dq080/cnh  exit 0  12 min
+09-13 18:14 start: sa_oal_dq080/hi
+09-13 18:19 done:  sa_oal_dq080/dv  exit 0  12 min
+09-13 18:19 start: sa_oal_dq080/ml
+09-13 18:25 done:  sa_oal_dq080/hi  exit 0  11 min
+09-13 18:25 start: sa_oal_dq080/mr
+09-13 18:30 done:  sa_oal_dq080/ml  exit 0  10 min
+09-13 18:30 start: sa_oal_dq080/or
+09-13 18:36 done:  sa_oal_dq080/mr  exit 0  10 min
+09-13 18:36 start: sa_oal_dq080/skr
+09-13 18:40 done:  sa_oal_dq080/or  exit 0  10 min
+09-13 18:40 start: sa_oal_dq050/cnh
+09-13 18:47 done:  sa_oal_dq080/skr  exit 0  11 min
+09-13 18:47 start: sa_oal_dq050/dv
+09-13 18:51 done:  sa_oal_dq050/cnh  exit 0  10 min
+09-13 18:51 start: sa_oal_dq050/hi
+09-13 18:59 done:  sa_oal_dq050/dv  exit 0  11 min
+09-13 18:59 start: sa_oal_dq050/ml
+09-13 19:02 done:  sa_oal_dq050/hi  exit 0  11 min
+09-13 19:02 start: sa_oal_dq050/mr
+09-13 19:10 done:  sa_oal_dq050/ml  exit 0  10 min
+09-13 19:10 start: sa_oal_dq050/or
+09-13 19:13 done:  sa_oal_dq050/mr  exit 0  11 min
+09-13 19:13 start: sa_oal_dq050/skr
+09-13 19:22 done:  sa_oal_dq050/or  exit 0  12 min
+09-13 19:22 start: sa_oal_dq020/cnh
+09-13 19:26 done:  sa_oal_dq050/skr  exit 0  13 min
+09-13 19:26 start: sa_oal_dq020/dv
+09-13 19:34 done:  sa_oal_dq020/cnh  exit 0  11 min
+09-13 19:34 start: sa_oal_dq020/hi
+09-13 19:39 done:  sa_oal_dq020/dv  exit 0  12 min
+09-13 19:39 start: sa_oal_dq020/ml
+09-13 19:47 done:  sa_oal_dq020/hi  exit 0  12 min
+09-13 19:47 start: sa_oal_dq020/mr
+09-13 19:51 done:  sa_oal_dq020/ml  exit 0  11 min
+09-13 19:51 start: sa_oal_dq020/or
+09-13 19:59 done:  sa_oal_dq020/mr  exit 0  11 min
+09-13 19:59 start: sa_oal_dq020/skr
+09-13 20:02 done:  sa_oal_dq020/or  exit 0  11 min
+09-13 20:02 start: ac_oal_dq080/bas
+09-13 20:10 done:  sa_oal_dq020/skr  exit 0  11 min
+09-13 20:10 start: ac_oal_dq080/ha
+09-13 20:11 done:  ac_oal_dq080/bas  exit 0  9 min
+09-13 20:11 start: ac_oal_dq080/yo
+09-13 20:20 done:  ac_oal_dq080/ha  exit 0  9 min
+09-13 20:20 start: ac_oal_dq050/bas
+09-13 20:22 done:  ac_oal_dq080/yo  exit 0  10 min
+09-13 20:22 start: ac_oal_dq050/ha
+09-13 20:30 done:  ac_oal_dq050/bas  exit 0  9 min
+09-13 20:30 start: ac_oal_dq050/yo
+09-13 20:31 done:  ac_oal_dq050/ha  exit 0  9 min
+09-13 20:31 start: ac_oal_dq020/bas
+09-13 20:39 done:  ac_oal_dq050/yo  exit 0  9 min
+09-13 20:39 start: ac_oal_dq020/ha
+09-13 20:40 done:  ac_oal_dq020/bas  exit 0  9 min
+09-13 20:40 start: ac_oal_dq020/yo
+09-13 20:47 done:  ac_oal_dq020/ha  exit 0  8 min
+09-13 20:50 done:  ac_oal_dq020/yo  exit 0  9 min
+09-13 20:50 === all runs finished and archived; summarizing
+09-13 20:50 === complete: see runs/dq_oal/summary.txt

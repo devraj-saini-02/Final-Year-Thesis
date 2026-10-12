@@ -1,0 +1,36 @@
+
+IMLM_eq1: oalcf+cfd0.1  vs  oalcf   (lower is better)
+seeds [3], 20/20 languages
+
+       lang              oalcf     oalcf+cfd0.1    change   better         
+   ac  bas              0.0178           0.0178       +0%   oalcf          
+   ac  ha               0.0280           0.0280       +0%   oalcf          
+   ac  yo               0.0213           0.0213       +0%   oalcf          
+   cr  hy-AM            0.0313           0.0284       -9%   oalcf+cfd0.1   
+   cr  ckb              0.0574           0.0574       +0%   oalcf          
+   cr  cv               0.0636           0.0660       +4%   oalcf          
+   cr  kmr              0.0671           0.0671       +0%   oalcf          
+   cr  ky               0.0967           0.0967       +0%   oalcf          
+   cr  sr               0.0416           0.0416       +0%   oalcf          
+   cr  tt               0.0484           0.0481       -1%   oalcf+cfd0.1   
+   sea yue              0.1929           0.2782      +44%   oalcf          
+   sea id               0.0319           0.0319       +0%   oalcf          
+   sea vi               0.0163           0.0163       +0%   oalcf          
+   sa  cnh              0.0247           0.0247       +0%   oalcf          
+   sa  dv               0.0410           0.0489      +19%   oalcf          
+   sa  hi               0.1091           0.1171       +7%   oalcf          
+   sa  ml               0.0398           0.0398       +0%   oalcf          
+   sa  mr               0.0302           0.0195      -35%   oalcf+cfd0.1   
+   sa  or               0.0213           0.0213       +0%   oalcf          
+   sa  skr              0.0322           0.0279      -13%   oalcf+cfd0.1   
+
+   oalcf+cfd0.1 better in 4/20 languages
+   mean 0.0506 -> 0.0549 (+8%)
+   one-sided Wilcoxon (is oalcf+cfd0.1 lower?): p = 0.6628
+   median per-language change +0%, worst +44% (yue), best -35% (mr)
+
+   per corpus:
+      African Continent  0/3 better | mean 0.0224 -> 0.0224 (+0%)
+      Caucasus Region    2/7 better | mean 0.0580 -> 0.0579 (-0%)
+      Southeast Asia     0/3 better | mean 0.0804 -> 0.1088 (+35%)
+      South Asia         2/7 better | mean 0.0426 -> 0.0427 (+0%)

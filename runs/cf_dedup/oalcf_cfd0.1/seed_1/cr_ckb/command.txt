@@ -1,0 +1,2 @@
+python3 run_cfdedup.py --run_name oalcf_cfd0.1_s1/cr_ckb --lid_target ckb --feat_root /Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/data/CaucasusRegionLID/ecapalang/ --order_file seed1 --env_name test --auto_weight --auto_mult 10 --min_delta 1e-3 --nworkers 0 --sim_type fpstps --gpus 0
+# via run_cfdedup.py: --cfd_threshold 0.10

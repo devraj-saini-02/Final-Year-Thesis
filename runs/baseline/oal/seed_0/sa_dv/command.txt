@@ -1,0 +1,1 @@
+python3 run.py --run_name sa_oal/dv --lid_target dv --feat_root /Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/data/SouthAsiaLID/ecapalang/ --env_name test --auto_weight --auto_mult 10 --min_delta 1e-3 --nworkers 0 --gpus 0

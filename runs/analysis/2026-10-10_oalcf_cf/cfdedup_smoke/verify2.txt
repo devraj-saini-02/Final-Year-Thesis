@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/-Users-devrajsaini-Documents-BTP-1-Active-Learning-oalcf-repro/f52b78ef-71f5-43d9-b0f1-d4337f56783d/scratchpad/cfd_smoke/verify.py", line 11, in <module>
+    for name in sorted(os.listdir(OUT)):
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/oalcf-main/output/cfd_smoke'

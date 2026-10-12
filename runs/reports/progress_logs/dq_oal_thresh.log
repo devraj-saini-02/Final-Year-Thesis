@@ -1,0 +1,171 @@
+09-16 11:36 === 42 runs: OAL, 0.18:0.95 0.16:0.975 (threshold:gamma), 2 at a time
+09-16 11:36 start: ac_oal_t16_g100/ha
+09-16 11:36 start: ac_oal_t18_g100/ha
+09-16 11:44 done:  ac_oal_t16_g100/ha  exit 0  7 min
+09-16 11:44 done:  ac_oal_t18_g100/ha  exit 0  7 min
+  gamma=1.0 control at threshold 0.18: scores.csv identical=True  al_samples identical=True  final weights identical=True
+CONTROL PASSED (threshold 0.18)
+  gamma=1.0 control at threshold 0.16: scores.csv identical=True  al_samples identical=True  final weights identical=True
+CONTROL PASSED (threshold 0.16)
+09-16 11:44 start: cr_oal_t18_g95/tt
+09-16 11:44 start: cr_oal_t18_g95/ckb
+09-16 12:11 done:  cr_oal_t18_g95/tt  exit 0  27 min
+09-16 12:11 start: cr_oal_t18_g95/kmr
+09-16 12:11 done:  cr_oal_t18_g95/ckb  exit 0  27 min
+09-16 12:11 start: cr_oal_t18_g95/hy-AM
+09-16 12:36 done:  cr_oal_t18_g95/kmr  exit 0  25 min
+09-16 12:36 start: cr_oal_t18_g95/ky
+09-16 12:39 done:  cr_oal_t18_g95/hy-AM  exit 0  27 min
+09-16 12:39 start: cr_oal_t18_g95/cv
+09-16 13:03 done:  cr_oal_t18_g95/ky  exit 0  26 min
+09-16 13:03 start: cr_oal_t18_g95/sr
+09-16 13:05 done:  cr_oal_t18_g95/cv  exit 0  26 min
+09-16 13:05 start: sea_oal_t18_g95/id
+09-16 13:21 done:  sea_oal_t18_g95/id  exit 0  15 min
+09-16 13:21 start: sea_oal_t18_g95/yue
+09-16 13:25 done:  cr_oal_t18_g95/sr  exit 0  22 min
+09-16 13:25 start: sea_oal_t18_g95/vi
+09-16 13:39 done:  sea_oal_t18_g95/yue  exit 0  17 min
+09-16 13:39 start: sa_oal_t18_g95/hi
+09-16 13:42 done:  sea_oal_t18_g95/vi  exit 0  16 min
+09-16 13:42 start: sa_oal_t18_g95/dv
+09-16 13:51 done:  sa_oal_t18_g95/hi  exit 0  12 min
+09-16 13:51 start: sa_oal_t18_g95/skr
+09-16 13:53 done:  sa_oal_t18_g95/dv  exit 0  10 min
+09-16 13:53 start: sa_oal_t18_g95/cnh
+09-16 14:02 done:  sa_oal_t18_g95/skr  exit 0  10 min
+09-16 14:02 start: sa_oal_t18_g95/or
+09-16 14:03 done:  sa_oal_t18_g95/cnh  exit 0  10 min
+09-16 14:03 start: sa_oal_t18_g95/mr
+09-16 14:13 done:  sa_oal_t18_g95/or  exit 0  11 min
+09-16 14:13 start: sa_oal_t18_g95/ml
+09-16 14:15 done:  sa_oal_t18_g95/mr  exit 0  11 min
+09-16 14:15 start: ac_oal_t18_g95/bas
+09-16 14:26 done:  sa_oal_t18_g95/ml  exit 0  12 min
+09-16 14:26 start: ac_oal_t18_g95/yo
+09-16 14:26 done:  ac_oal_t18_g95/bas  exit 0  10 min
+09-16 14:26 start: ac_oal_t18_g95/ha
+09-16 14:38 done:  ac_oal_t18_g95/yo  exit 0  12 min
+09-16 14:38 start: cr_oal_t16_g975/tt
+09-16 14:39 done:  ac_oal_t18_g95/ha  exit 0  12 min
+09-16 14:39 start: cr_oal_t16_g975/ckb
+09-16 15:09 done:  cr_oal_t16_g975/tt  exit 0  30 min
+09-16 15:09 start: cr_oal_t16_g975/kmr
+09-16 15:10 done:  cr_oal_t16_g975/ckb  exit 0  31 min
+09-16 15:10 start: cr_oal_t16_g975/hy-AM
+09-16 15:31 done:  cr_oal_t16_g975/hy-AM  exit 0  21 min
+09-16 15:31 start: cr_oal_t16_g975/ky
+09-16 15:33 done:  cr_oal_t16_g975/kmr  exit 0  23 min
+09-16 15:33 start: cr_oal_t16_g975/cv
+09-16 15:54 done:  cr_oal_t16_g975/ky  exit 0  22 min
+09-16 15:54 start: cr_oal_t16_g975/sr
+09-16 15:57 done:  cr_oal_t16_g975/cv  exit 0  24 min
+09-16 15:57 start: sea_oal_t16_g975/id
+09-16 16:13 done:  sea_oal_t16_g975/id  exit 0  15 min
+09-16 16:13 start: sea_oal_t16_g975/yue
+09-16 16:17 done:  cr_oal_t16_g975/sr  exit 0  23 min
+09-16 16:17 start: sea_oal_t16_g975/vi
+09-16 16:29 done:  sea_oal_t16_g975/yue  exit 0  16 min
+09-16 16:29 start: sa_oal_t16_g975/hi
+09-16 16:35 done:  sea_oal_t16_g975/vi  exit 0  17 min
+09-16 16:35 start: sa_oal_t16_g975/dv
+09-16 16:41 done:  sa_oal_t16_g975/hi  exit 0  11 min
+09-16 16:41 start: sa_oal_t16_g975/skr
+09-16 16:46 done:  sa_oal_t16_g975/dv  exit 0  11 min
+09-16 16:46 start: sa_oal_t16_g975/cnh
+09-16 16:51 done:  sa_oal_t16_g975/skr  exit 0  10 min
+09-16 16:51 start: sa_oal_t16_g975/or
+09-16 16:56 done:  sa_oal_t16_g975/cnh  exit 0  10 min
+09-16 16:56 start: sa_oal_t16_g975/mr
+09-16 17:01 done:  sa_oal_t16_g975/or  exit 0  9 min
+09-16 17:01 start: sa_oal_t16_g975/ml
+09-16 17:08 done:  sa_oal_t16_g975/mr  exit 0  11 min
+09-16 17:08 start: ac_oal_t16_g975/bas
+09-16 17:12 done:  sa_oal_t16_g975/ml  exit 0  11 min
+09-16 17:12 start: ac_oal_t16_g975/yo
+09-16 17:18 done:  ac_oal_t16_g975/bas  exit 0  10 min
+09-16 17:18 start: ac_oal_t16_g975/ha
+09-16 17:22 done:  ac_oal_t16_g975/yo  exit 0  10 min
+09-16 17:22 start: cr_oal_t18_g86/tt
+09-16 17:27 done:  ac_oal_t16_g975/ha  exit 0  9 min
+09-16 17:27 start: cr_oal_t18_g86/ckb
+09-16 17:45 done:  cr_oal_t18_g86/tt  exit 0  23 min
+09-16 17:45 start: cr_oal_t18_g86/kmr
+09-16 17:53 done:  cr_oal_t18_g86/ckb  exit 0  25 min
+09-16 17:53 start: cr_oal_t18_g86/hy-AM
+09-16 18:11 done:  cr_oal_t18_g86/kmr  exit 0  25 min
+09-16 18:11 start: cr_oal_t18_g86/ky
+09-16 18:16 done:  cr_oal_t18_g86/hy-AM  exit 0  23 min
+09-16 18:16 start: cr_oal_t18_g86/cv
+09-16 18:35 done:  cr_oal_t18_g86/ky  exit 0  24 min
+09-16 18:35 start: cr_oal_t18_g86/sr
+09-16 18:42 done:  cr_oal_t18_g86/cv  exit 0  25 min
+09-16 18:42 start: sea_oal_t18_g86/id
+09-16 18:58 done:  sea_oal_t18_g86/id  exit 0  16 min
+09-16 18:58 start: sea_oal_t18_g86/yue
+09-16 19:01 done:  cr_oal_t18_g86/sr  exit 0  25 min
+09-16 19:01 start: sea_oal_t18_g86/vi
+09-16 19:17 done:  sea_oal_t18_g86/yue  exit 0  18 min
+09-16 19:17 start: sa_oal_t18_g86/hi
+09-16 19:19 done:  sea_oal_t18_g86/vi  exit 0  17 min
+09-16 19:19 start: sa_oal_t18_g86/dv
+09-16 19:30 done:  sa_oal_t18_g86/hi  exit 0  12 min
+09-16 19:30 start: sa_oal_t18_g86/skr
+09-16 19:31 done:  sa_oal_t18_g86/dv  exit 0  12 min
+09-16 19:31 start: sa_oal_t18_g86/cnh
+09-16 19:43 done:  sa_oal_t18_g86/cnh  exit 0  12 min
+09-16 19:43 start: sa_oal_t18_g86/or
+09-16 19:44 done:  sa_oal_t18_g86/skr  exit 0  13 min
+09-16 19:44 start: sa_oal_t18_g86/mr
+09-16 19:55 done:  sa_oal_t18_g86/mr  exit 0  11 min
+09-16 19:55 start: sa_oal_t18_g86/ml
+09-16 19:55 done:  sa_oal_t18_g86/or  exit 0  11 min
+09-16 19:55 start: ac_oal_t18_g86/bas
+09-16 20:06 done:  ac_oal_t18_g86/bas  exit 0  10 min
+09-16 20:06 start: ac_oal_t18_g86/yo
+09-16 20:08 done:  sa_oal_t18_g86/ml  exit 0  12 min
+09-16 20:08 start: ac_oal_t18_g86/ha
+09-16 20:17 done:  ac_oal_t18_g86/yo  exit 0  11 min
+09-16 20:17 start: cr_oal_t16_g93/tt
+09-16 20:18 done:  ac_oal_t18_g86/ha  exit 0  10 min
+09-16 20:18 start: cr_oal_t16_g93/ckb
+09-16 20:47 done:  cr_oal_t16_g93/ckb  exit 0  29 min
+09-16 20:47 start: cr_oal_t16_g93/kmr
+09-16 20:47 done:  cr_oal_t16_g93/tt  exit 0  30 min
+09-16 20:47 start: cr_oal_t16_g93/hy-AM
+09-16 21:10 done:  cr_oal_t16_g93/hy-AM  exit 0  23 min
+09-16 21:10 start: cr_oal_t16_g93/ky
+09-16 21:12 done:  cr_oal_t16_g93/kmr  exit 0  25 min
+09-16 21:12 start: cr_oal_t16_g93/cv
+09-16 21:34 done:  cr_oal_t16_g93/ky  exit 0  23 min
+09-16 21:34 start: cr_oal_t16_g93/sr
+09-16 21:37 done:  cr_oal_t16_g93/cv  exit 0  24 min
+09-16 21:37 start: sea_oal_t16_g93/id
+09-16 21:54 done:  sea_oal_t16_g93/id  exit 0  16 min
+09-16 21:54 start: sea_oal_t16_g93/yue
+09-16 21:57 done:  cr_oal_t16_g93/sr  exit 0  23 min
+09-16 21:57 start: sea_oal_t16_g93/vi
+09-16 22:12 done:  sea_oal_t16_g93/yue  exit 0  18 min
+09-16 22:12 start: sa_oal_t16_g93/hi
+09-16 22:14 done:  sea_oal_t16_g93/vi  exit 0  16 min
+09-16 22:14 start: sa_oal_t16_g93/dv
+09-16 22:24 done:  sa_oal_t16_g93/hi  exit 0  11 min
+09-16 22:24 start: sa_oal_t16_g93/skr
+09-16 22:28 done:  sa_oal_t16_g93/dv  exit 0  13 min
+09-16 22:28 start: sa_oal_t16_g93/cnh
+09-16 22:38 done:  sa_oal_t16_g93/skr  exit 0  14 min
+09-16 22:38 start: sa_oal_t16_g93/or
+09-16 22:43 done:  sa_oal_t16_g93/cnh  exit 0  15 min
+09-16 22:43 start: sa_oal_t16_g93/mr
+09-16 22:53 done:  sa_oal_t16_g93/or  exit 0  14 min
+09-16 22:53 start: sa_oal_t16_g93/ml
+09-16 22:59 done:  sa_oal_t16_g93/mr  exit 0  15 min
+09-16 22:59 start: ac_oal_t16_g93/bas
+09-16 23:10 done:  sa_oal_t16_g93/ml  exit 0  17 min
+09-16 23:10 start: ac_oal_t16_g93/yo
+09-16 23:12 done:  ac_oal_t16_g93/bas  exit 0  13 min
+09-16 23:12 start: ac_oal_t16_g93/ha
+09-16 23:23 done:  ac_oal_t16_g93/yo  exit 0  13 min
+09-16 23:24 done:  ac_oal_t16_g93/ha  exit 0  11 min
+09-16 23:24 === all runs finished and archived; summarizing
+09-16 23:24 === complete: see runs/dq_oal_thresh/summary.txt

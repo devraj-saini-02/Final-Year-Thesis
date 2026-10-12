@@ -1,0 +1,19 @@
+09-19 00:19 === oal_baseline seed 0: queued in a batch of 3 runs, 1 at a time
+09-19 00:19 --force: replacing existing run: seed_0/oal_baseline/ac_bas
+09-19 00:19 start: seed_0/oal_baseline/ac_bas
+09-19 00:19 === batch finished
+09-19 00:25 === oal_baseline seed 0: queued in a batch of 1 runs, 1 at a time
+09-19 00:25 start: seed_0/oal_baseline/ac_bas
+09-19 00:30 done:  seed_0/oal_baseline/ac_bas  exit 0  4 min
+09-19 00:30 === batch finished
+09-19 00:40 === oal_baseline seed 0: queued in a batch of 3 runs, 1 at a time
+09-19 00:40 --force: replacing existing run: seed_0/oal_baseline/ac_bas
+09-19 00:40 start: seed_0/oal_baseline/ac_bas
+09-19 00:45 done:  seed_0/oal_baseline/ac_bas  exit 0  4 min
+09-19 00:45 --force: replacing existing run: seed_0/oal_baseline/ac_ha
+09-19 00:45 start: seed_0/oal_baseline/ac_ha
+09-19 00:52 done:  seed_0/oal_baseline/ac_ha  exit 0  6 min
+09-19 00:52 --force: replacing existing run: seed_0/oal_baseline/ac_yo
+09-19 00:52 start: seed_0/oal_baseline/ac_yo
+09-19 00:59 done:  seed_0/oal_baseline/ac_yo  exit 0  7 min
+09-19 00:59 === batch finished

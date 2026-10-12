@@ -1,0 +1,39 @@
+Diversity extension with OAL-CF at a tighter cluster threshold, seed 0, CPU
+
+== threshold 0.18, gamma 0.95   (20/20 runs OK)
+  vs baseline OAL-CF
+    IMLM Eq.1    better in 10/20 | mean 0.0763 -> 0.0755 | p = 0.3108
+    IMLM repo    better in 10/20 | mean 0.1093 -> 0.1087 | p = 0.3921
+    DCF          better in 12/20 | mean 0.0473 -> 0.0464 | p = 0.3506
+  vs baseline OAL
+    IMLM Eq.1    better in 18/20 | mean 0.1576 -> 0.0755 | p = 0.0001
+    IMLM repo    better in 10/20 | mean 0.1658 -> 0.1087 | p = 0.2152
+    DCF          better in 19/20 | mean 0.1112 -> 0.0464 | p = 0.0000
+  per corpus (IMLM Eq.1, vs baseline OAL-CF)
+    ac   0/3 | mean 0.0249 -> 0.0573 (+131%) | p = 1.0000
+    cr   3/7 | mean 0.0764 -> 0.0778 (+2%) | p = 0.6562
+    sea  2/3 | mean 0.1280 -> 0.1117 (-13%) | p = 0.2500
+    sa   5/7 | mean 0.0760 -> 0.0655 (-14%) | p = 0.2344
+  selection: 0.61 of 8 queries changed per session | distinct clusters 5.30 | clusters/session 70.7 | uncertainty given up 0.3%
+
+  per language, IMLM Eq.1: baseline OAL-CF -> this setting
+    ac  bas    0.0210 -> 0.0924 (+339%)
+    ac  ha     0.0260 -> 0.0451 (+74%)
+    ac  yo     0.0276 -> 0.0345 (+25%)
+    cr  hy-AM  0.0228 -> 0.0234 (+3%)
+    cr  ckb    0.0558 -> 0.0434 (-22%)
+    cr  cv     0.1361 -> 0.1226 (-10%)
+    cr  kmr    0.1303 -> 0.1522 (+17%)
+    cr  ky     0.0639 -> 0.0762 (+19%)
+    cr  sr     0.0144 -> 0.0278 (+93%)
+    cr  tt     0.1114 -> 0.0991 (-11%)
+    sea yue    0.2590 -> 0.2288 (-12%)
+    sea id     0.0312 -> 0.0316 (+1%)
+    sea vi     0.0939 -> 0.0746 (-21%)
+    sa  cnh    0.0182 -> 0.0155 (-15%)
+    sa  dv     0.0852 -> 0.0484 (-43%)
+    sa  hi     0.1793 -> 0.1527 (-15%)
+    sa  ml     0.0670 -> 0.0262 (-61%)
+    sa  mr     0.0725 -> 0.0835 (+15%)
+    sa  or     0.0363 -> 0.0942 (+160%)
+    sa  skr    0.0739 -> 0.0379 (-49%)

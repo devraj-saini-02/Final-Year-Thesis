@@ -1,0 +1,54 @@
+OAL-CF vs OAL-CF + CF deduplication (threshold 0.10), stream-order seeds 0-4, 20 languages
+============================================================================================
+Each subfolder holds one metric: report.txt (full report by language, corpus and seed) and table.csv.
+Made with: python tools/compare_runs.py oalcf oalcf+cfd0.1 --seeds 0 1 2 3 4 --metric <metric>
+Each language is averaged over its 5 seeds first; the test is a Wilcoxon signed-rank over the 20 languages.
+
+1. SUMMARY BY METRIC (lower is better)
+metric             what it charges for CF                       OAL-CF    dedup  change  better  worse  same  p(1-sided)  p(2-sided)
+IMLM_thesis        every label the expert gives (thesis Eq.3.8)   0.0935   0.0878   -6.2%      18      2     0      0.0021       0.004
+IMLM_repo_expert   every label the expert gives (repo formula)   0.0978   0.0918   -6.1%      18      2     0      0.0021       0.004
+IMLM_eq1           nothing; confirmations free (paper Eq.1)     0.0656   0.0686   +4.6%       6      9     5      0.7339       0.532
+IMLM_repo          pool size, copied labels too (as released)   0.0978   0.1008   +3.1%       6      9     5      0.6545       0.691
+DCF                accuracy only (0.75 FNR + 0.25 FPR)          0.0393   0.0417   +6.1%       6      9     5      0.7867       0.427
+FNR                accuracy only: missed targets                0.0501   0.0533   +6.4%       6      9     5      0.8329       0.334
+FPR                accuracy only: false alarms                  0.0070   0.0069   -0.4%       8      7     5      0.2302       0.460
+
+2. EXPERT LABELLING SAVED, PER SEED
+   seed 0: CF clips  50218 -> expert labels  35303  saved  29.7%   wrong copies   55 (0.11%)
+   seed 1: CF clips  50734 -> expert labels  35412  saved  30.2%   wrong copies   53 (0.10%)
+   seed 2: CF clips  51581 -> expert labels  36287  saved  29.7%   wrong copies  114 (0.22%)
+   seed 3: CF clips  50808 -> expert labels  35627  saved  29.9%   wrong copies   94 (0.19%)
+   seed 4: CF clips  49427 -> expert labels  34650  saved  29.9%   wrong copies   99 (0.20%)
+   all:    CF clips 252768 -> expert labels 177279  saved  29.9%   wrong copies  415 (0.16%)
+   expert listening saved: 109 h of 364 h CF review (5.19 s per clip)
+
+3. PER LANGUAGE (mean over seeds 0-4)
+language    saved  wrong  Eq.1 OAL-CF  Eq.1 dedup   Eq.1  thesis OAL-CF  thesis dedup  thesis    DCF
+ac/bas        21%      1       0.0377      0.0371    -2%         0.0517        0.0470     -9%    +1%
+ac/ha         42%      0       0.0324      0.0324    +0%         0.0462        0.0405    -12%    +0%
+ac/yo         61%      9       0.0248      0.0449   +81%         0.0469        0.0532    +13%  +214%
+cr/hy-AM      60%      1       0.0228      0.0222    -3%         0.0662        0.0393    -41%    -3%
+cr/ckb        14%     16       0.0484      0.0450    -7%         0.1019        0.0909    -11%   -11%
+cr/cv         44%     18       0.1090      0.0812   -26%         0.1205        0.0880    -27%   -29%
+cr/kmr        15%     16       0.0954      0.0872    -9%         0.1323        0.1187    -10%   -10%
+cr/ky         32%     13       0.0885      0.0908    +3%         0.1064        0.1030     -3%    +3%
+cr/sr         11%      1       0.0271      0.0274    +1%         0.0445        0.0429     -4%    +3%
+cr/tt         23%    120       0.0633      0.0634    +0%         0.1152        0.1037    -10%    -0%
+sea/yue       24%    121       0.2501      0.3191   +28%         0.2819        0.3416    +21%   +30%
+sea/id        24%      0       0.0248      0.0248    +0%         0.0701        0.0593    -15%    +0%
+sea/vi        17%      0       0.0548      0.0548    +0%         0.0742        0.0709     -4%    +0%
+sa/cnh        19%      0       0.0265      0.0265    +0%         0.0421        0.0391     -7%    +0%
+sa/dv         34%      4       0.0653      0.0700    +7%         0.0996        0.0950     -5%    +5%
+sa/hi         32%     82       0.1444      0.1476    +2%         0.1966        0.1829     -7%    +2%
+sa/ml         28%      0       0.0447      0.0447    +0%         0.0606        0.0562     -7%    +0%
+sa/mr         68%      1       0.0361      0.0340    -6%         0.0646        0.0425    -34%    -3%
+sa/or         55%      6       0.0407      0.0415    +2%         0.0528        0.0470    -11%    +2%
+sa/skr        24%      6       0.0747      0.0770    +3%         0.0965        0.0937     -3%    +4%
+
+4. READING
+- Saves ~30% of the expert's corrective-feedback labels, 29.7-30.2% on every seed.
+- Significantly better on both IMLM equations that count expert labels (18/20 languages, p = 0.002).
+- No significant change on any accuracy metric (Eq.1, released repo scorer, DCF, FNR, FPR).
+- Weak spots: sea/yue (worse on 3 of 5 seeds; early and mixed-group wrong copies) and ac/yo
+  (one catastrophic run, seed 1). Plan and pre-declared rule: runs/reports/cfdedup__PLAN.md.

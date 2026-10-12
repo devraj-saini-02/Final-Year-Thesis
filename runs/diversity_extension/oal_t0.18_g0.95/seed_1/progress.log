@@ -1,0 +1,36 @@
+09-19 01:04 === oal_t0.18_g0.95 seed 1: queued in a batch of 77 runs, 2 at a time
+09-19 01:04 start: seed_1/oal_t0.18_g0.95/cr_hy-AM
+09-19 01:04 start: seed_1/oal_t0.18_g0.95/cr_ckb
+09-19 01:29 done:  seed_1/oal_t0.18_g0.95/cr_hy-AM  exit 0  25 min
+09-19 01:29 start: seed_1/oal_t0.18_g0.95/cr_cv
+09-19 01:29 done:  seed_1/oal_t0.18_g0.95/cr_ckb  exit 0  25 min
+09-19 01:29 start: seed_1/oal_t0.18_g0.95/cr_kmr
+09-19 01:54 done:  seed_1/oal_t0.18_g0.95/cr_kmr  exit 0  24 min
+09-19 01:54 start: seed_1/oal_t0.18_g0.95/cr_ky
+09-19 01:55 done:  seed_1/oal_t0.18_g0.95/cr_cv  exit 0  26 min
+09-19 01:55 start: seed_1/oal_t0.18_g0.95/cr_sr
+09-19 02:17 done:  seed_1/oal_t0.18_g0.95/cr_ky  exit 0  23 min
+09-19 02:17 start: seed_1/oal_t0.18_g0.95/cr_tt
+09-19 02:19 done:  seed_1/oal_t0.18_g0.95/cr_sr  exit 0  24 min
+09-19 02:19 start: seed_1/oal_t0.18_g0.95/sea_yue
+09-19 02:37 done:  seed_1/oal_t0.18_g0.95/sea_yue  exit 0  18 min
+09-19 02:37 start: seed_1/oal_t0.18_g0.95/sea_id
+09-19 02:42 done:  seed_1/oal_t0.18_g0.95/cr_tt  exit 0  24 min
+09-19 02:42 start: seed_1/oal_t0.18_g0.95/sea_vi
+09-19 02:55 done:  seed_1/oal_t0.18_g0.95/sea_id  exit 0  17 min
+09-19 02:55 start: seed_1/oal_t0.18_g0.95/sa_cnh
+09-19 03:00 done:  seed_1/oal_t0.18_g0.95/sea_vi  exit 0  17 min
+09-19 03:00 start: seed_1/oal_t0.18_g0.95/sa_dv
+09-19 03:06 done:  seed_1/oal_t0.18_g0.95/sa_cnh  exit 0  11 min
+09-19 03:06 start: seed_1/oal_t0.18_g0.95/sa_hi
+09-19 03:12 done:  seed_1/oal_t0.18_g0.95/sa_dv  exit 0  12 min
+09-19 03:12 start: seed_1/oal_t0.18_g0.95/sa_ml
+09-19 03:18 done:  seed_1/oal_t0.18_g0.95/sa_hi  exit 0  12 min
+09-19 03:18 start: seed_1/oal_t0.18_g0.95/sa_mr
+09-19 03:23 done:  seed_1/oal_t0.18_g0.95/sa_ml  exit 0  10 min
+09-19 03:23 start: seed_1/oal_t0.18_g0.95/sa_or
+09-19 03:29 done:  seed_1/oal_t0.18_g0.95/sa_mr  exit 0  10 min
+09-19 03:29 start: seed_1/oal_t0.18_g0.95/sa_skr
+09-19 03:34 done:  seed_1/oal_t0.18_g0.95/sa_or  exit 0  11 min
+09-19 03:42 done:  seed_1/oal_t0.18_g0.95/sa_skr  exit 0  13 min
+09-19 11:47 === batch finished

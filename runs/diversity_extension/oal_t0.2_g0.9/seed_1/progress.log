@@ -1,0 +1,8 @@
+09-19 12:16 === oal_t0.2_g0.9 seed 1: queued in a batch of 3 runs, 2 at a time
+09-19 12:16 start: seed_1/oal_t0.2_g0.9/ac_bas
+09-19 12:16 start: seed_1/oal_t0.2_g0.9/ac_ha
+09-19 12:24 done:  seed_1/oal_t0.2_g0.9/ac_ha  exit 0  7 min
+09-19 12:24 start: seed_1/oal_t0.2_g0.9/ac_yo
+09-19 12:24 done:  seed_1/oal_t0.2_g0.9/ac_bas  exit 0  7 min
+09-19 12:30 done:  seed_1/oal_t0.2_g0.9/ac_yo  exit 0  6 min
+09-19 12:30 === batch finished

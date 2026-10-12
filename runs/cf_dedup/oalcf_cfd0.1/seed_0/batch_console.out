@@ -1,0 +1,28 @@
+experiment: oalcf_cfd0.1, seeds 0, 20 runs, 2 at a time
+progress:   tail -f runs/cf_dedup/oalcf_cfd0.1/seed_0/progress.log
+/Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/venv/lib/python3.11/site-packages/scipy/stats/_morestats.py:3414: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "
+wrote runs/INVENTORY.md (912 runs, 26 settings)
+
+saving comparisons to runs/comparisons/ ...
+      oalcf+cfd0.1 better in 5/20 languages
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds0_IMLM_eq1/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 8/20 languages
+      per seed (oalcf+cfd0.1 better in ... of the languages that seed has):
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds0-1-2-3_IMLM_eq1/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 19/20 languages
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds0_IMLM_thesis/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 18/20 languages
+      per seed (oalcf+cfd0.1 better in ... of the languages that seed has):
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds0-1-2-3_IMLM_thesis/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 19/20 languages
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds0_IMLM_repo_expert/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 18/20 languages
+      per seed (oalcf+cfd0.1 better in ... of the languages that seed has):
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds0-1-2-3_IMLM_repo_expert/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 5/20 languages
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds0_DCF/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 7/20 languages
+      per seed (oalcf+cfd0.1 better in ... of the languages that seed has):
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds0-1-2-3_DCF/ (report.txt, table.csv)
+done.

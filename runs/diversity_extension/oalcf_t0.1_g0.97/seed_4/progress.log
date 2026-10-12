@@ -1,0 +1,42 @@
+10-07 23:32 === oalcf_t0.1_g0.97 seed 4: queued in a batch of 20 runs, 2 at a time
+10-07 23:32 start: seed_4/oalcf_t0.1_g0.97/ac_bas
+10-07 23:32 start: seed_4/oalcf_t0.1_g0.97/ac_ha
+10-07 23:46 done:  seed_4/oalcf_t0.1_g0.97/ac_ha  exit 0  13 min
+10-07 23:46 start: seed_4/oalcf_t0.1_g0.97/ac_yo
+10-07 23:46 done:  seed_4/oalcf_t0.1_g0.97/ac_bas  exit 0  13 min
+10-07 23:46 start: seed_4/oalcf_t0.1_g0.97/cr_hy-AM
+10-08 00:17 done:  seed_4/oalcf_t0.1_g0.97/ac_yo  exit 0  31 min
+10-08 00:17 start: seed_4/oalcf_t0.1_g0.97/cr_ckb
+10-08 01:29 done:  seed_4/oalcf_t0.1_g0.97/cr_hy-AM  exit 0  103 min
+10-08 01:29 start: seed_4/oalcf_t0.1_g0.97/cr_cv
+10-08 02:33 done:  seed_4/oalcf_t0.1_g0.97/cr_ckb  exit 0  135 min
+10-08 02:33 start: seed_4/oalcf_t0.1_g0.97/cr_kmr
+10-08 02:38 done:  seed_4/oalcf_t0.1_g0.97/cr_cv  exit 0  68 min
+10-08 02:38 start: seed_4/oalcf_t0.1_g0.97/cr_ky
+10-08 03:42 done:  seed_4/oalcf_t0.1_g0.97/cr_ky  exit 0  63 min
+10-08 03:42 start: seed_4/oalcf_t0.1_g0.97/cr_sr
+10-08 04:07 done:  seed_4/oalcf_t0.1_g0.97/cr_kmr  exit 0  94 min
+10-08 04:07 start: seed_4/oalcf_t0.1_g0.97/cr_tt
+10-08 04:38 done:  seed_4/oalcf_t0.1_g0.97/cr_sr  exit 0  56 min
+10-08 04:38 start: seed_4/oalcf_t0.1_g0.97/sea_yue
+10-08 05:48 done:  seed_4/oalcf_t0.1_g0.97/sea_yue  exit 0  70 min
+10-08 05:48 start: seed_4/oalcf_t0.1_g0.97/sea_id
+10-08 06:30 done:  seed_4/oalcf_t0.1_g0.97/cr_tt  exit 0  143 min
+10-08 06:30 start: seed_4/oalcf_t0.1_g0.97/sea_vi
+10-08 07:11 done:  seed_4/oalcf_t0.1_g0.97/sea_vi  exit 0  41 min
+10-08 07:11 start: seed_4/oalcf_t0.1_g0.97/sa_cnh
+10-08 07:28 done:  seed_4/oalcf_t0.1_g0.97/sea_id  exit 0  99 min
+10-08 07:28 start: seed_4/oalcf_t0.1_g0.97/sa_dv
+10-08 07:40 done:  seed_4/oalcf_t0.1_g0.97/sa_cnh  exit 0  28 min
+10-08 07:40 start: seed_4/oalcf_t0.1_g0.97/sa_hi
+10-08 08:02 done:  seed_4/oalcf_t0.1_g0.97/sa_dv  exit 0  33 min
+10-08 08:02 start: seed_4/oalcf_t0.1_g0.97/sa_ml
+10-08 08:25 done:  seed_4/oalcf_t0.1_g0.97/sa_hi  exit 0  44 min
+10-08 08:25 start: seed_4/oalcf_t0.1_g0.97/sa_mr
+10-08 08:25 done:  seed_4/oalcf_t0.1_g0.97/sa_ml  exit 0  23 min
+10-08 08:25 start: seed_4/oalcf_t0.1_g0.97/sa_or
+10-08 08:52 done:  seed_4/oalcf_t0.1_g0.97/sa_or  exit 0  27 min
+10-08 08:52 start: seed_4/oalcf_t0.1_g0.97/sa_skr
+10-08 08:54 done:  seed_4/oalcf_t0.1_g0.97/sa_mr  exit 0  29 min
+10-08 09:18 done:  seed_4/oalcf_t0.1_g0.97/sa_skr  exit 0  25 min
+10-08 09:18 === batch finished

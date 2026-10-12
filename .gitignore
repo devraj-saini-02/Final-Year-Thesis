@@ -1,0 +1,49 @@
+# oalcf-repro repository root. oalcf-main/ also has its own .gitignore (output/, checkpoints/,
+# lightning_logs/, caches); this one covers everything else under this root.
+
+# --- Secrets: never commit API keys/tokens (.env holds the Mozilla Data Collective key) ---
+.env
+.env.*
+
+# --- Local-only files ---
+CLAUDE.md
+.claude/
+oalcf-main.zip
+# oalcf-main's old standalone .git, kept after its history was merged into this repo
+.oalcf-main-git-backup/
+venv/
+.venv/
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# --- Third-party material: fetch it yourself (links in README.md) ---
+# Mozilla's Common Voice metadata clone, only used to identify the corpora.
+cv-dataset/
+# The paper (IEEE copyright) and the author's thesis.
+docs/sources/*.pdf
+# Draft emails to the paper's author: they contain the author's address, keep them private.
+docs/other/email_to_author*.txt
+
+# --- Data: audio and features are 43 GB and Common Voice licensed; rebuild them (DATA.md) ---
+# Only the stream-order files are published, so a rebuilt corpus streams in exactly our order.
+# seedN_order_train is a byte copy of cluster_order_train and is recreated by the steps in DATA.md.
+data/**
+!data/*/
+!data/*/orders/
+!data/*/orders/cluster_order_test
+!data/*/orders/cluster_order_train
+!data/*/orders/seed.txt
+!data/*/orders/seed[1-4]_order_test
+!data/*/bootstrap_needed_files.txt
+data/synthLID/
+data/tinyLID/
+
+# --- Run outputs: keep scores and summaries, drop weights and logs (19 GB + 8 GB) ---
+runs/**/state_dict.pt
+runs/**/train.log
+runs/**/al_samples.txt
+runs/**/failed/

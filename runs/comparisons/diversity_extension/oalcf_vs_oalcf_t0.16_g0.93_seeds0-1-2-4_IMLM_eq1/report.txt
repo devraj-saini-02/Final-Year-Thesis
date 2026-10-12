@@ -1,0 +1,43 @@
+
+IMLM_eq1: oalcf@0.16/0.93  vs  oalcf   (lower is better)
+seeds [0, 1, 2, 4], 20/20 languages
+
+       lang              oalcf  oalcf@0.16/0.93    change   better         
+   ac  bas              0.0427           0.0718      +68%   oalcf          
+   ac  ha               0.0336           0.0376      +12%   oalcf          
+   ac  yo               0.0257           0.0318      +24%   oalcf          
+   cr  hy-AM            0.0207           0.0244      +18%   oalcf          
+   cr  ckb              0.0462           0.0501       +9%   oalcf          
+   cr  cv               0.1203           0.1224       +2%   oalcf          
+   cr  kmr              0.1025           0.1123      +10%   oalcf          
+   cr  ky               0.0864           0.0766      -11%   oalcf@0.16/0.93
+   cr  sr               0.0234           0.0436      +86%   oalcf          
+   cr  tt               0.0671           0.0510      -24%   oalcf@0.16/0.93
+   sea yue              0.2644           0.2944      +11%   oalcf          
+   sea id               0.0231           0.0342      +48%   oalcf          
+   sea vi               0.0644           0.0379      -41%   oalcf@0.16/0.93
+   sa  cnh              0.0270           0.0235      -13%   oalcf@0.16/0.93
+   sa  dv               0.0714           0.0759       +6%   oalcf          
+   sa  hi               0.1532           0.1465       -4%   oalcf@0.16/0.93
+   sa  ml               0.0459           0.0701      +53%   oalcf          
+   sa  mr               0.0376           0.0424      +13%   oalcf          
+   sa  or               0.0456           0.0433       -5%   oalcf@0.16/0.93
+   sa  skr              0.0853           0.0786       -8%   oalcf@0.16/0.93
+
+   oalcf@0.16/0.93 better in 7/20 languages
+   mean 0.0693 -> 0.0734 (+6%)
+   one-sided Wilcoxon (is oalcf@0.16/0.93 lower?): p = 0.8919
+   median per-language change +9%, worst +86% (sr), best -41% (vi)
+
+   per corpus:
+      African Continent  0/3 better | mean 0.0340 -> 0.0471 (+38%)
+      Caucasus Region    2/7 better | mean 0.0667 -> 0.0686 (+3%)
+      Southeast Asia     1/3 better | mean 0.1173 -> 0.1222 (+4%)
+      South Asia         4/7 better | mean 0.0666 -> 0.0686 (+3%)
+
+   per seed (oalcf@0.16/0.93 better in ... of the languages that seed has):
+      seed 0: 9/20 | mean 0.0763 -> 0.0732 (-4%)
+      seed 1: 10/20 | mean 0.0721 -> 0.0758 (+5%)
+      seed 2: 8/20 | mean 0.0554 -> 0.0647 (+17%)
+      seed 4: 8/20 | mean 0.0735 -> 0.0800 (+9%)
+   (per-seed rows are for inspection; the test above is the one to report)

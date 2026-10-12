@@ -1,0 +1,94 @@
+09-17 00:00 === 21 runs: OAL-CF, 0.16:0.93 (threshold:gamma), 2 at a time
+09-17 00:00 start: ac_oalcf_t16_g100/ha
+09-17 00:00 start: cr_oalcf_t16_g93/tt
+09-17 00:20 done:  ac_oalcf_t16_g100/ha  exit 0  20 min
+  gamma=1.0 OAL-CF control at threshold 0.16: scores.csv identical=True  al_samples identical=True  final weights identical=True
+CONTROL PASSED (threshold 0.16)
+09-17 00:20 start: cr_oalcf_t16_g93/ckb
+09-17 02:19 done:  cr_oalcf_t16_g93/tt  exit 0  138 min
+09-17 02:19 start: cr_oalcf_t16_g93/kmr
+09-17 02:44 done:  cr_oalcf_t16_g93/ckb  exit 0  143 min
+09-17 02:44 start: cr_oalcf_t16_g93/hy-AM
+09-17 04:02 done:  cr_oalcf_t16_g93/kmr  exit 0  103 min
+09-17 04:02 start: cr_oalcf_t16_g93/ky
+09-17 04:13 done:  cr_oalcf_t16_g93/hy-AM  exit 0  89 min
+09-17 04:13 start: cr_oalcf_t16_g93/cv
+09-17 04:55 done:  cr_oalcf_t16_g93/ky  exit 0  53 min
+09-17 04:55 start: cr_oalcf_t16_g93/sr
+09-17 05:14 done:  cr_oalcf_t16_g93/cv  exit 0  60 min
+09-17 05:14 start: sea_oalcf_t16_g93/id
+09-17 06:00 done:  cr_oalcf_t16_g93/sr  exit 0  65 min
+09-17 06:00 start: sea_oalcf_t16_g93/yue
+09-17 06:31 done:  sea_oalcf_t16_g93/id  exit 0  77 min
+09-17 06:31 start: sea_oalcf_t16_g93/vi
+09-17 07:16 done:  sea_oalcf_t16_g93/vi  exit 0  44 min
+09-17 07:16 start: sa_oalcf_t16_g93/hi
+09-17 07:28 done:  sea_oalcf_t16_g93/yue  exit 0  87 min
+09-17 07:28 start: sa_oalcf_t16_g93/dv
+09-17 08:03 done:  sa_oalcf_t16_g93/dv  exit 0  35 min
+09-17 08:03 start: sa_oalcf_t16_g93/skr
+09-17 08:18 done:  sa_oalcf_t16_g93/hi  exit 0  62 min
+09-17 08:18 start: sa_oalcf_t16_g93/cnh
+09-17 08:30 done:  sa_oalcf_t16_g93/skr  exit 0  26 min
+09-17 08:30 start: sa_oalcf_t16_g93/or
+09-17 08:54 done:  sa_oalcf_t16_g93/or  exit 0  23 min
+09-17 08:54 start: sa_oalcf_t16_g93/mr
+09-17 08:56 done:  sa_oalcf_t16_g93/cnh  exit 0  37 min
+09-17 08:56 start: sa_oalcf_t16_g93/ml
+09-17 09:25 done:  sa_oalcf_t16_g93/mr  exit 0  31 min
+09-17 09:25 start: ac_oalcf_t16_g93/bas
+09-17 09:30 done:  sa_oalcf_t16_g93/ml  exit 0  33 min
+09-17 09:30 start: ac_oalcf_t16_g93/yo
+09-17 09:44 done:  ac_oalcf_t16_g93/bas  exit 0  19 min
+09-17 09:44 start: ac_oalcf_t16_g93/ha
+09-17 09:58 done:  ac_oalcf_t16_g93/yo  exit 0  28 min
+09-17 10:02 done:  ac_oalcf_t16_g93/ha  exit 0  18 min
+09-17 10:02 === all runs finished and archived; summarizing
+09-17 10:02 === complete: see runs/dq_oalcf_thresh/summary.txt
+09-17 11:15 === 21 runs: OAL-CF, 0.18:0.95 (threshold:gamma), 2 at a time
+09-17 11:15 start: ac_oalcf_t18_g100/ha
+09-17 11:15 start: cr_oalcf_t18_g95/tt
+09-17 11:32 done:  ac_oalcf_t18_g100/ha  exit 0  16 min
+  gamma=1.0 OAL-CF control at threshold 0.18: scores.csv identical=True  al_samples identical=True  final weights identical=True
+CONTROL PASSED (threshold 0.18)
+09-17 11:32 start: cr_oalcf_t18_g95/ckb
+09-17 13:29 done:  cr_oalcf_t18_g95/tt  exit 0  134 min
+09-17 13:29 start: cr_oalcf_t18_g95/kmr
+09-17 13:37 done:  cr_oalcf_t18_g95/ckb  exit 0  125 min
+09-17 13:37 start: cr_oalcf_t18_g95/hy-AM
+09-17 15:08 done:  cr_oalcf_t18_g95/kmr  exit 0  98 min
+09-17 15:08 start: cr_oalcf_t18_g95/ky
+09-17 15:24 done:  cr_oalcf_t18_g95/hy-AM  exit 0  107 min
+09-17 15:24 start: cr_oalcf_t18_g95/cv
+09-17 16:00 done:  cr_oalcf_t18_g95/ky  exit 0  52 min
+09-17 16:00 start: cr_oalcf_t18_g95/sr
+09-17 16:28 done:  cr_oalcf_t18_g95/cv  exit 0  63 min
+09-17 16:28 start: sea_oalcf_t18_g95/id
+09-17 17:02 done:  cr_oalcf_t18_g95/sr  exit 0  62 min
+09-17 17:02 start: sea_oalcf_t18_g95/yue
+09-17 17:19 done:  sea_oalcf_t18_g95/id  exit 0  51 min
+09-17 17:19 start: sea_oalcf_t18_g95/vi
+09-17 17:52 done:  sea_oalcf_t18_g95/vi  exit 0  32 min
+09-17 17:52 start: sa_oalcf_t18_g95/hi
+09-17 18:00 done:  sea_oalcf_t18_g95/yue  exit 0  57 min
+09-17 18:00 start: sa_oalcf_t18_g95/dv
+09-17 18:38 done:  sa_oalcf_t18_g95/dv  exit 0  38 min
+09-17 18:38 start: sa_oalcf_t18_g95/skr
+09-17 19:06 done:  sa_oalcf_t18_g95/skr  exit 0  27 min
+09-17 19:06 start: sa_oalcf_t18_g95/cnh
+09-17 19:14 done:  sa_oalcf_t18_g95/hi  exit 0  81 min
+09-17 19:14 start: sa_oalcf_t18_g95/or
+09-17 19:38 done:  sa_oalcf_t18_g95/cnh  exit 0  31 min
+09-17 19:38 start: sa_oalcf_t18_g95/mr
+09-17 19:40 done:  sa_oalcf_t18_g95/or  exit 0  25 min
+09-17 19:40 start: sa_oalcf_t18_g95/ml
+09-17 20:04 done:  sa_oalcf_t18_g95/ml  exit 0  24 min
+09-17 20:04 start: ac_oalcf_t18_g95/bas
+09-17 20:24 done:  ac_oalcf_t18_g95/bas  exit 0  19 min
+09-17 20:24 start: ac_oalcf_t18_g95/yo
+09-17 20:26 done:  sa_oalcf_t18_g95/mr  exit 0  47 min
+09-17 20:26 start: ac_oalcf_t18_g95/ha
+09-17 20:47 done:  ac_oalcf_t18_g95/ha  exit 0  21 min
+09-17 20:54 done:  ac_oalcf_t18_g95/yo  exit 0  30 min
+09-17 20:54 === all runs finished and archived; summarizing
+09-17 20:54 === complete: see runs/dq_oalcf_thresh/summary.txt

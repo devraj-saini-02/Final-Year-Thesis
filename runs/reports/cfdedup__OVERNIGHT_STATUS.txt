@@ -1,0 +1,244 @@
+10-10 00:56 waiting for smoke runs
+01:09 ac_ha_t0 exit=0
+01:21 ac_yo_t0.10 exit=0
+01:24 ac_ha_t0.10 exit=0
+01:24 ALL DONE
+
+=== ac_ha_t0
+   PASS  full session count (83)
+   PASS  no NaN/inf in scores.csv
+   PASS  final weights finite
+   PASS  no 'nan' loss / Traceback / Warning-errors in log
+   PASS  cf_dedup.csv one row per session
+   PASS  CF clip totals agree with scores.csv
+   PASS  true CF classes agree with scores.csv
+   PASS  expert + copied = CF clips
+   PASS  command.txt records the threshold
+   PASS  control: bit-identical to baseline scores.csv
+   PASS  control: expert labels every CF clip
+   CF clips 616, expert labels 616 (0% saved), wrong 0 (false alarm->target 0, target->non-target 0)
+   first wrong label at session None; scores first differ from baseline at session None
+   IMLM_eq1          baseline 0.0357  ->  0.0357
+   IMLM_thesis       baseline 0.0460  ->  0.0460
+   IMLM_repo         baseline 0.0482  ->  0.0482
+   IMLM_repo_expert  baseline 0.0482  ->  0.0482
+   DCF               baseline 0.0195  ->  0.0195
+
+=== ac_ha_t0.10
+   PASS  full session count (83)
+   PASS  no NaN/inf in scores.csv
+   PASS  final weights finite
+   PASS  no 'nan' loss / Traceback / Warning-errors in log
+   PASS  cf_dedup.csv one row per session
+   PASS  CF clip totals agree with scores.csv
+   PASS  true CF classes agree with scores.csv
+   PASS  expert + copied = CF clips
+   PASS  command.txt records the threshold
+   PASS  identical to baseline until the first wrong label
+   CF clips 616, expert labels 360 (42% saved), wrong 0 (false alarm->target 0, target->non-target 0)
+   offline prediction on the baseline trajectory: expert 360, wrong 0
+   first wrong label at session None; scores first differ from baseline at session None
+   IMLM_eq1          baseline 0.0357  ->  0.0357
+   IMLM_thesis       baseline 0.0460  ->  0.0417
+   IMLM_repo         baseline 0.0482  ->  0.0482
+   IMLM_repo_expert  baseline 0.0482  ->  0.0438
+   DCF               baseline 0.0195  ->  0.0195
+
+=== ac_yo_t0.10
+   PASS  full session count (83)
+   PASS  no NaN/inf in scores.csv
+   PASS  final weights finite
+   PASS  no 'nan' loss / Traceback / Warning-errors in log
+   PASS  cf_dedup.csv one row per session
+   PASS  CF clip totals agree with scores.csv
+   PASS  true CF classes agree with scores.csv
+   PASS  expert + copied = CF clips
+   PASS  command.txt records the threshold
+   FAIL  identical to baseline until the first wrong label
+   CF clips 1599, expert labels 625 (61% saved), wrong 8 (false alarm->target 8, target->non-target 0)
+   offline prediction on the baseline trajectory: expert 392, wrong 8
+   first wrong label at session 27; scores first differ from baseline at session 27
+   IMLM_eq1          baseline 0.0219  ->  0.1366
+   IMLM_thesis       baseline 0.0396  ->  0.1471
+   IMLM_repo         baseline 0.0407  ->  0.1671
+   IMLM_repo_expert  baseline 0.0407  ->  0.1504
+   DCF               baseline 0.0074  ->  0.0897
+10-10 01:24 SMOKE CHECKS FAILED - seed-2 run NOT launched
+
+10-10 01:33 RE-CHECK: the one FAIL above was an over-strict check (scores.csv logs the pool's
+  class balance, which changes in the SAME session a copied label enters; only p_target/p_nontarget differed).
+  Check corrected to 'identical before the first wrong label'; all checks now PASS:
+  PASS count: 0
+  NOTE: ac_yo at 0.10 got 8 wrong labels (session 27) and later missed one whole burst (session 71: 104 of 105
+  targets), Eq.1 0.022 -> 0.137. Launched anyway as pre-registered (human decision, 01:3x) to measure
+  whether that harm is systematic over 20 languages.
+10-10 01:33 launching seed 2 (oalcf+cfd0.1)
+experiment: oalcf_cfd0.1, seeds 2, 20 runs, 2 at a time
+progress:   tail -f runs/seed_2/oalcf_cfd0.1/progress.log
+/Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/venv/lib/python3.11/site-packages/scipy/stats/_morestats.py:3414: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "
+wrote runs/INVENTORY.md (854 runs, 26 settings)
+
+done. Compare it against a baseline, e.g.:
+  python tools/compare_runs.py oalcf oalcf+cfd0.1 --seeds 2 --metric IMLM_thesis   (and IMLM_eq1)
+10-10 11:21 seed-2 batch finished
+/Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/venv/lib/python3.11/site-packages/scipy/stats/_morestats.py:3414: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "
+
+IMLM_eq1: oalcf+cfd0.1  vs  oalcf   (lower is better)
+seeds [2], 20/20 languages
+
+       lang              oalcf     oalcf+cfd0.1    change   better         
+   ac  bas              0.0287           0.0254      -11%   oalcf+cfd0.1   
+   ac  ha               0.0184           0.0184       +0%   oalcf          
+   ac  yo               0.0322           0.0178      -45%   oalcf+cfd0.1   
+   cr  hy-AM            0.0150           0.0150       +0%   oalcf          
+   cr  ckb              0.0330           0.0340       +3%   oalcf          
+   cr  cv               0.0977           0.0547      -44%   oalcf+cfd0.1   
+   cr  kmr              0.1094           0.1088       -1%   oalcf+cfd0.1   
+   cr  ky               0.1058           0.1142       +8%   oalcf          
+   cr  sr               0.0262           0.0262       +0%   oalcf          
+   cr  tt               0.0611           0.0655       +7%   oalcf          
+   sea yue              0.1514           0.2431      +61%   oalcf          
+   sea id               0.0184           0.0184       +0%   oalcf          
+   sea vi               0.1034           0.1034       +0%   oalcf          
+   sa  cnh              0.0268           0.0268       +0%   oalcf          
+   sa  dv               0.0375           0.0442      +18%   oalcf          
+   sa  hi               0.1047           0.0983       -6%   oalcf+cfd0.1   
+   sa  ml               0.0327           0.0327       +0%   oalcf          
+   sa  mr               0.0286           0.0286       +0%   oalcf          
+   sa  or               0.0185           0.0255      +38%   oalcf          
+   sa  skr              0.0585           0.0585       +0%   oalcf          
+
+   oalcf+cfd0.1 better in 5/20 languages
+   mean 0.0554 -> 0.0580 (+5%)
+   one-sided Wilcoxon (is oalcf+cfd0.1 lower?): p = 0.6717
+   median per-language change +0%, worst +61% (yue), best -45% (yo)
+
+   per corpus:
+      African Continent  2/3 better | mean 0.0264 -> 0.0205 (-22%)
+      Caucasus Region    2/7 better | mean 0.0640 -> 0.0598 (-7%)
+      Southeast Asia     0/3 better | mean 0.0911 -> 0.1216 (+34%)
+      South Asia         1/7 better | mean 0.0439 -> 0.0449 (+2%)
+
+   saved to runs/comparisons/oalcf_vs_oalcf_cfd0.1_seeds2_IMLM_eq1/ (report.txt, table.csv)
+
+
+IMLM_thesis: oalcf+cfd0.1  vs  oalcf   (lower is better)
+seeds [2], 20/20 languages
+
+       lang              oalcf     oalcf+cfd0.1    change   better         
+   ac  bas              0.0469           0.0340      -28%   oalcf+cfd0.1   
+   ac  ha               0.0326           0.0283      -13%   oalcf+cfd0.1   
+   ac  yo               0.0650           0.0254      -61%   oalcf+cfd0.1   
+   cr  hy-AM            0.0522           0.0285      -45%   oalcf+cfd0.1   
+   cr  ckb              0.0868           0.0777      -11%   oalcf+cfd0.1   
+   cr  cv               0.1093           0.0621      -43%   oalcf+cfd0.1   
+   cr  kmr              0.1488           0.1440       -3%   oalcf+cfd0.1   
+   cr  ky               0.1226           0.1274       +4%   oalcf          
+   cr  sr               0.0394           0.0391       -1%   oalcf+cfd0.1   
+   cr  tt               0.1160           0.1055       -9%   oalcf+cfd0.1   
+   sea yue              0.1881           0.2684      +43%   oalcf          
+   sea id               0.0590           0.0489      -17%   oalcf+cfd0.1   
+   sea vi               0.1206           0.1180       -2%   oalcf+cfd0.1   
+   sa  cnh              0.0491           0.0448       -9%   oalcf+cfd0.1   
+   sa  dv               0.0706           0.0711       +1%   oalcf          
+   sa  hi               0.1810           0.1399      -23%   oalcf+cfd0.1   
+   sa  ml               0.0531           0.0463      -13%   oalcf+cfd0.1   
+   sa  mr               0.0536           0.0366      -32%   oalcf+cfd0.1   
+   sa  or               0.0294           0.0301       +2%   oalcf          
+   sa  skr              0.0909           0.0824       -9%   oalcf+cfd0.1   
+
+   oalcf+cfd0.1 better in 16/20 languages
+   mean 0.0857 -> 0.0779 (-9%)
+   one-sided Wilcoxon (is oalcf+cfd0.1 lower?): p = 0.0024   SIGNIFICANT at 0.05
+   median per-language change -10%, worst +43% (yue), best -61% (yo)
+
+   per corpus:
+      African Continent  3/3 better | mean 0.0482 -> 0.0292 (-39%)
+      Caucasus Region    6/7 better | mean 0.0965 -> 0.0835 (-13%)
+      Southeast Asia     2/3 better | mean 0.1226 -> 0.1451 (+18%)
+      South Asia         5/7 better | mean 0.0754 -> 0.0645 (-14%)
+
+   saved to runs/comparisons/oalcf_vs_oalcf_cfd0.1_seeds2_IMLM_thesis/ (report.txt, table.csv)
+
+
+IMLM_repo_expert: oalcf+cfd0.1  vs  oalcf   (lower is better)
+seeds [2], 20/20 languages
+
+       lang              oalcf     oalcf+cfd0.1    change   better         
+   ac  bas              0.0484           0.0356      -26%   oalcf+cfd0.1   
+   ac  ha               0.0335           0.0292      -13%   oalcf+cfd0.1   
+   ac  yo               0.0669           0.0261      -61%   oalcf+cfd0.1   
+   cr  hy-AM            0.0547           0.0299      -45%   oalcf+cfd0.1   
+   cr  ckb              0.0916           0.0818      -11%   oalcf+cfd0.1   
+   cr  cv               0.1164           0.0657      -44%   oalcf+cfd0.1   
+   cr  kmr              0.1537           0.1485       -3%   oalcf+cfd0.1   
+   cr  ky               0.1329           0.1372       +3%   oalcf          
+   cr  sr               0.0409           0.0406       -1%   oalcf+cfd0.1   
+   cr  tt               0.1218           0.1104       -9%   oalcf+cfd0.1   
+   sea yue              0.1978           0.2825      +43%   oalcf          
+   sea id               0.0620           0.0514      -17%   oalcf+cfd0.1   
+   sea vi               0.1258           0.1230       -2%   oalcf+cfd0.1   
+   sa  cnh              0.0503           0.0459       -9%   oalcf+cfd0.1   
+   sa  dv               0.0740           0.0746       +1%   oalcf          
+   sa  hi               0.1895           0.1455      -23%   oalcf+cfd0.1   
+   sa  ml               0.0556           0.0487      -12%   oalcf+cfd0.1   
+   sa  mr               0.0556           0.0380      -32%   oalcf+cfd0.1   
+   sa  or               0.0303           0.0312       +3%   oalcf          
+   sa  skr              0.0934           0.0847       -9%   oalcf+cfd0.1   
+
+   oalcf+cfd0.1 better in 16/20 languages
+   mean 0.0897 -> 0.0815 (-9%)
+   one-sided Wilcoxon (is oalcf+cfd0.1 lower?): p = 0.0018   SIGNIFICANT at 0.05
+   median per-language change -10%, worst +43% (yue), best -61% (yo)
+
+   per corpus:
+      African Continent  3/3 better | mean 0.0496 -> 0.0303 (-39%)
+      Caucasus Region    6/7 better | mean 0.1017 -> 0.0877 (-14%)
+      Southeast Asia     2/3 better | mean 0.1285 -> 0.1523 (+19%)
+      South Asia         5/7 better | mean 0.0784 -> 0.0669 (-15%)
+
+   saved to runs/comparisons/oalcf_vs_oalcf_cfd0.1_seeds2_IMLM_repo_expert/ (report.txt, table.csv)
+
+/Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/venv/lib/python3.11/site-packages/scipy/stats/_morestats.py:3414: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "
+
+DCF: oalcf+cfd0.1  vs  oalcf   (lower is better)
+seeds [2], 20/20 languages
+
+       lang              oalcf     oalcf+cfd0.1    change   better         
+   ac  bas              0.0087           0.0100      +15%   oalcf          
+   ac  ha               0.0035           0.0035       +0%   oalcf          
+   ac  yo               0.0075           0.0037      -51%   oalcf+cfd0.1   
+   cr  hy-AM            0.0023           0.0023       +0%   oalcf          
+   cr  ckb              0.0119           0.0140      +18%   oalcf          
+   cr  cv               0.0688           0.0338      -51%   oalcf+cfd0.1   
+   cr  kmr              0.0708           0.0688       -3%   oalcf+cfd0.1   
+   cr  ky               0.0753           0.0806       +7%   oalcf          
+   cr  sr               0.0116           0.0116       +0%   oalcf          
+   cr  tt               0.0313           0.0360      +15%   oalcf          
+   sea yue              0.1042           0.1771      +70%   oalcf          
+   sea id               0.0046           0.0046       +0%   oalcf          
+   sea vi               0.0699           0.0699       +0%   oalcf          
+   sa  cnh              0.0061           0.0061       +0%   oalcf          
+   sa  dv               0.0191           0.0197       +3%   oalcf          
+   sa  hi               0.0546           0.0565       +3%   oalcf          
+   sa  ml               0.0116           0.0116       +0%   oalcf          
+   sa  mr               0.0131           0.0131       +0%   oalcf          
+   sa  or               0.0050           0.0106     +112%   oalcf          
+   sa  skr              0.0270           0.0270       +0%   oalcf          
+
+   oalcf+cfd0.1 better in 3/20 languages
+   mean 0.0303 -> 0.0330 (+9%)
+   one-sided Wilcoxon (is oalcf+cfd0.1 lower?): p = 0.8761
+   median per-language change +0%, worst +112% (or), best -51% (cv)
+
+   per corpus:
+      African Continent  1/3 better | mean 0.0066 -> 0.0057 (-13%)
+      Caucasus Region    2/7 better | mean 0.0389 -> 0.0353 (-9%)
+      Southeast Asia     0/3 better | mean 0.0596 -> 0.0839 (+41%)
+      South Asia         0/7 better | mean 0.0195 -> 0.0207 (+6%)
+
+   saved to runs/comparisons/oalcf_vs_oalcf_cfd0.1_seeds2_DCF/ (report.txt, table.csv)
+

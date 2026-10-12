@@ -1,0 +1,42 @@
+09-30 22:55 === oalcf_t0.16_g0.93 seed 2: queued in a batch of 20 runs, 2 at a time
+09-30 22:55 start: seed_2/oalcf_t0.16_g0.93/ac_bas
+09-30 22:55 start: seed_2/oalcf_t0.16_g0.93/ac_ha
+09-30 23:13 done:  seed_2/oalcf_t0.16_g0.93/ac_bas  exit 0  17 min
+09-30 23:13 start: seed_2/oalcf_t0.16_g0.93/ac_yo
+09-30 23:14 done:  seed_2/oalcf_t0.16_g0.93/ac_ha  exit 0  19 min
+09-30 23:14 start: seed_2/oalcf_t0.16_g0.93/cr_hy-AM
+09-30 23:41 done:  seed_2/oalcf_t0.16_g0.93/ac_yo  exit 0  27 min
+09-30 23:41 start: seed_2/oalcf_t0.16_g0.93/cr_ckb
+10-01 00:42 done:  seed_2/oalcf_t0.16_g0.93/cr_hy-AM  exit 0  87 min
+10-01 00:42 start: seed_2/oalcf_t0.16_g0.93/cr_cv
+10-01 01:37 done:  seed_2/oalcf_t0.16_g0.93/cr_cv  exit 0  54 min
+10-01 01:37 start: seed_2/oalcf_t0.16_g0.93/cr_kmr
+10-01 02:26 done:  seed_2/oalcf_t0.16_g0.93/cr_ckb  exit 0  165 min
+10-01 02:26 start: seed_2/oalcf_t0.16_g0.93/cr_ky
+10-01 03:12 done:  seed_2/oalcf_t0.16_g0.93/cr_kmr  exit 0  94 min
+10-01 03:12 start: seed_2/oalcf_t0.16_g0.93/cr_sr
+10-01 03:25 done:  seed_2/oalcf_t0.16_g0.93/cr_ky  exit 0  59 min
+10-01 03:25 start: seed_2/oalcf_t0.16_g0.93/cr_tt
+10-01 04:06 done:  seed_2/oalcf_t0.16_g0.93/cr_sr  exit 0  54 min
+10-01 04:06 start: seed_2/oalcf_t0.16_g0.93/sea_yue
+10-01 05:14 done:  seed_2/oalcf_t0.16_g0.93/sea_yue  exit 0  68 min
+10-01 05:14 start: seed_2/oalcf_t0.16_g0.93/sea_id
+10-01 05:31 done:  seed_2/oalcf_t0.16_g0.93/cr_tt  exit 0  126 min
+10-01 05:31 start: seed_2/oalcf_t0.16_g0.93/sea_vi
+10-01 06:19 done:  seed_2/oalcf_t0.16_g0.93/sea_vi  exit 0  47 min
+10-01 06:19 start: seed_2/oalcf_t0.16_g0.93/sa_cnh
+10-01 06:22 done:  seed_2/oalcf_t0.16_g0.93/sea_id  exit 0  67 min
+10-01 06:22 start: seed_2/oalcf_t0.16_g0.93/sa_dv
+10-01 06:45 done:  seed_2/oalcf_t0.16_g0.93/sa_cnh  exit 0  26 min
+10-01 06:45 start: seed_2/oalcf_t0.16_g0.93/sa_hi
+10-01 07:00 done:  seed_2/oalcf_t0.16_g0.93/sa_dv  exit 0  38 min
+10-01 07:00 start: seed_2/oalcf_t0.16_g0.93/sa_ml
+10-01 07:20 done:  seed_2/oalcf_t0.16_g0.93/sa_ml  exit 0  20 min
+10-01 07:20 start: seed_2/oalcf_t0.16_g0.93/sa_mr
+10-01 07:40 done:  seed_2/oalcf_t0.16_g0.93/sa_hi  exit 0  54 min
+10-01 07:40 start: seed_2/oalcf_t0.16_g0.93/sa_or
+10-01 08:03 done:  seed_2/oalcf_t0.16_g0.93/sa_or  exit 0  23 min
+10-01 08:03 start: seed_2/oalcf_t0.16_g0.93/sa_skr
+10-01 08:12 done:  seed_2/oalcf_t0.16_g0.93/sa_mr  exit 0  52 min
+10-01 08:25 done:  seed_2/oalcf_t0.16_g0.93/sa_skr  exit 0  21 min
+10-01 08:25 === batch finished

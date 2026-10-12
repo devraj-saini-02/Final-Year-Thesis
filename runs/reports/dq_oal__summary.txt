@@ -1,0 +1,42 @@
+Diversity-penalized AL with OAL vs baseline OAL, seed 0, CPU
+
+== health
+  60/60 runs OK
+
+== each gamma vs baseline OAL over 20 languages (one-sided Wilcoxon: gamma lower than baseline; with 3 gammas, significant only if p < 0.0167)
+  gamma=0.8  IMLM Eq.1 (authors)  better in 11/20, worse in  9/20 | mean 0.1576 -> 0.1561 | p = 0.4492
+  gamma=0.8  IMLM repo            better in 11/20, worse in  9/20 | mean 0.1658 -> 0.1629 | p = 0.4492
+  gamma=0.8  DCF                  better in 11/20, worse in  9/20 | mean 0.1112 -> 0.1097 | p = 0.4347
+  gamma=0.5  IMLM Eq.1 (authors)  better in 13/20, worse in  7/20 | mean 0.1576 -> 0.1246 | p = 0.1559
+  gamma=0.5  IMLM repo            better in 13/20, worse in  7/20 | mean 0.1658 -> 0.1311 | p = 0.1559
+  gamma=0.5  DCF                  better in 13/20, worse in  7/20 | mean 0.1112 -> 0.0860 | p = 0.1650
+  gamma=0.2  IMLM Eq.1 (authors)  better in 11/20, worse in  9/20 | mean 0.1576 -> 0.1449 | p = 0.2979
+  gamma=0.2  IMLM repo            better in 11/20, worse in  9/20 | mean 0.1658 -> 0.1517 | p = 0.2979
+  gamma=0.2  DCF                  better in 11/20, worse in  9/20 | mean 0.1112 -> 0.1010 | p = 0.3238
+
+== how much each gamma changed the selection (al_diversity.csv, mean per session)
+  gamma=0.8: queries shared with plain uncertainty top-8 6.69/8 | distinct clusters among the 8 3.07 | clusters per session 9.8
+  gamma=0.5: queries shared with plain uncertainty top-8 5.87/8 | distinct clusters among the 8 3.90 | clusters per session 9.8
+  gamma=0.2: queries shared with plain uncertainty top-8 5.49/8 | distinct clusters among the 8 4.28 | clusters per session 9.8
+
+== per language, IMLM Eq.1 (authors' reading): baseline OAL -> gamma 0.8 / 0.5 / 0.2
+  ac  bas    0.5767 -> 0.5464 / 0.3055 / 0.4849
+  ac  ha     0.3101 -> 0.0286 / 0.0381 / 0.0240
+  ac  yo     0.2998 -> 0.6289 / 0.1300 / 0.1314
+  cr  hy-AM  0.0352 -> 0.0136 / 0.0143 / 0.1129
+  cr  ckb    0.0560 -> 0.0615 / 0.0524 / 0.0454
+  cr  cv     0.1380 -> 0.1611 / 0.2419 / 0.1720
+  cr  kmr    0.1913 -> 0.1488 / 0.1701 / 0.1249
+  cr  ky     0.1633 -> 0.1624 / 0.1017 / 0.1400
+  cr  sr     0.0310 -> 0.0269 / 0.0472 / 0.0268
+  cr  tt     0.2217 -> 0.0935 / 0.1284 / 0.1886
+  sea yue    0.3555 -> 0.3958 / 0.2530 / 0.2911
+  sea id     0.0635 -> 0.0315 / 0.0331 / 0.0315
+  sea vi     0.0528 -> 0.0574 / 0.1190 / 0.0669
+  sa  cnh    0.0198 -> 0.0639 / 0.0186 / 0.0249
+  sa  dv     0.0567 -> 0.1297 / 0.1087 / 0.1365
+  sa  hi     0.1487 -> 0.2733 / 0.2750 / 0.2369
+  sa  ml     0.1796 -> 0.0505 / 0.0479 / 0.0691
+  sa  mr     0.0880 -> 0.0699 / 0.1235 / 0.1472
+  sa  or     0.1009 -> 0.0529 / 0.2552 / 0.3742
+  sa  skr    0.0627 -> 0.1260 / 0.0281 / 0.0679

@@ -1,0 +1,36 @@
+
+IMLM_thesis: oalcf+cfd0.1  vs  oalcf   (lower is better)
+seeds [1], 20/20 languages
+
+       lang              oalcf     oalcf+cfd0.1    change   better         
+   ac  bas              0.0863           0.0830       -4%   oalcf+cfd0.1   
+   ac  ha               0.0460           0.0417       -9%   oalcf+cfd0.1   
+   ac  yo               0.0396           0.1471     +271%   oalcf          
+   cr  hy-AM            0.0657           0.0398      -39%   oalcf+cfd0.1   
+   cr  ckb              0.0993           0.1073       +8%   oalcf          
+   cr  cv               0.1983           0.0767      -61%   oalcf+cfd0.1   
+   cr  kmr              0.0968           0.0943       -3%   oalcf+cfd0.1   
+   cr  ky               0.0817           0.0645      -21%   oalcf+cfd0.1   
+   cr  sr               0.0385           0.0373       -3%   oalcf+cfd0.1   
+   cr  tt               0.1076           0.0960      -11%   oalcf+cfd0.1   
+   sea yue              0.4179           0.3972       -5%   oalcf+cfd0.1   
+   sea id               0.0783           0.0664      -15%   oalcf+cfd0.1   
+   sea vi               0.0442           0.0420       -5%   oalcf+cfd0.1   
+   sa  cnh              0.0324           0.0303       -7%   oalcf+cfd0.1   
+   sa  dv               0.0942           0.0809      -14%   oalcf+cfd0.1   
+   sa  hi               0.1904           0.2189      +15%   oalcf          
+   sa  ml               0.0580           0.0560       -3%   oalcf+cfd0.1   
+   sa  mr               0.0624           0.0404      -35%   oalcf+cfd0.1   
+   sa  or               0.0406           0.0343      -16%   oalcf+cfd0.1   
+   sa  skr              0.1002           0.1127      +12%   oalcf          
+
+   oalcf+cfd0.1 better in 16/20 languages
+   mean 0.0989 -> 0.0933 (-6%)
+   one-sided Wilcoxon (is oalcf+cfd0.1 lower?): p = 0.0413   SIGNIFICANT at 0.05
+   median per-language change -6%, worst +271% (yo), best -61% (cv)
+
+   per corpus:
+      African Continent  2/3 better | mean 0.0573 -> 0.0906 (+58%)
+      Caucasus Region    6/7 better | mean 0.0983 -> 0.0737 (-25%)
+      Southeast Asia     3/3 better | mean 0.1802 -> 0.1686 (-6%)
+      South Asia         5/7 better | mean 0.0826 -> 0.0819 (-1%)

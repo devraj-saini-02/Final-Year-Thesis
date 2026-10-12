@@ -1,0 +1,73 @@
+Diversity-penalized AL with OAL-CF, AC + CR + SEA + SA (20 languages), seed 0, CPU; gamma 0.8 / 0.5 / 0.2
+
+== health
+  60/60 runs OK
+
+One-sided Wilcoxon (the gamma OAL-CF arm lower). Significant (*) only if p < 0.0167 (Bonferroni over 3 planned gammas). With n = 20 the smallest possible p is 0.0000.
+
+== gamma OAL-CF vs baseline OAL-CF (does the extension help OAL-CF?)
+  gamma=0.8  IMLM Eq.1 (authors)  better in 15/20, worse in 5/20 | mean 0.0763 -> 0.0762 | p = 0.0164  *
+  gamma=0.8  IMLM repo            better in 15/20, worse in 5/20 | mean 0.1093 -> 0.1079 | p = 0.0086  *
+  gamma=0.8  DCF                  better in 14/20, worse in 6/20 | mean 0.0473 -> 0.0480 | p = 0.0291
+  gamma=0.5  IMLM Eq.1 (authors)  better in 11/20, worse in 9/20 | mean 0.0763 -> 0.0744 | p = 0.3506
+  gamma=0.5  IMLM repo            better in 12/20, worse in 8/20 | mean 0.1093 -> 0.1056 | p = 0.2608
+  gamma=0.5  DCF                  better in 10/20, worse in 10/20 | mean 0.0473 -> 0.0466 | p = 0.4062
+  gamma=0.2  IMLM Eq.1 (authors)  better in 10/20, worse in 10/20 | mean 0.0763 -> 0.0941 | p = 0.7392
+  gamma=0.2  IMLM repo            better in 11/20, worse in 9/20 | mean 0.1093 -> 0.1263 | p = 0.6892
+  gamma=0.2  DCF                  better in 10/20, worse in 10/20 | mean 0.0473 -> 0.0616 | p = 0.7625
+
+== gamma OAL-CF vs gamma OAL (does CF still help under the extension?)
+  gamma=0.8  IMLM Eq.1 (authors)  better in 18/20, worse in 2/20 | mean 0.1561 -> 0.0762 | p = 0.0000  *
+  gamma=0.8  IMLM repo            better in 10/20, worse in 10/20 | mean 0.1629 -> 0.1079 | p = 0.1942
+  gamma=0.8  DCF                  better in 17/20, worse in 3/20 | mean 0.1097 -> 0.0480 | p = 0.0000  *
+  gamma=0.5  IMLM Eq.1 (authors)  better in 15/20, worse in 5/20 | mean 0.1246 -> 0.0744 | p = 0.0047  *
+  gamma=0.5  IMLM repo            better in 11/20, worse in 9/20 | mean 0.1311 -> 0.1056 | p = 0.2152
+  gamma=0.5  DCF                  better in 14/20, worse in 6/20 | mean 0.0860 -> 0.0466 | p = 0.0032  *
+  gamma=0.2  IMLM Eq.1 (authors)  better in 16/20, worse in 4/20 | mean 0.1449 -> 0.0941 | p = 0.0120  *
+  gamma=0.2  IMLM repo            better in 11/20, worse in 9/20 | mean 0.1517 -> 0.1263 | p = 0.4204
+  gamma=0.2  DCF                  better in 17/20, worse in 3/20 | mean 0.1010 -> 0.0616 | p = 0.0107  *
+
+== gamma OAL-CF vs baseline OAL
+  gamma=0.8  IMLM Eq.1 (authors)  better in 17/20, worse in 3/20 | mean 0.1576 -> 0.0762 | p = 0.0001  *
+  gamma=0.8  IMLM repo            better in 9/20, worse in 11/20 | mean 0.1658 -> 0.1079 | p = 0.1012
+  gamma=0.8  DCF                  better in 16/20, worse in 4/20 | mean 0.1112 -> 0.0480 | p = 0.0002  *
+  gamma=0.5  IMLM Eq.1 (authors)  better in 16/20, worse in 4/20 | mean 0.1576 -> 0.0744 | p = 0.0004  *
+  gamma=0.5  IMLM repo            better in 11/20, worse in 9/20 | mean 0.1658 -> 0.1056 | p = 0.1153
+  gamma=0.5  DCF                  better in 15/20, worse in 5/20 | mean 0.1112 -> 0.0466 | p = 0.0007  *
+  gamma=0.2  IMLM Eq.1 (authors)  better in 16/20, worse in 4/20 | mean 0.1576 -> 0.0941 | p = 0.0053  *
+  gamma=0.2  IMLM repo            better in 10/20, worse in 10/20 | mean 0.1658 -> 0.1263 | p = 0.2152
+  gamma=0.2  DCF                  better in 16/20, worse in 4/20 | mean 0.1112 -> 0.0616 | p = 0.0036  *
+
+== annotation volume (mean per run): AL / CF true positives / CF false positives
+  baseline   AL    962 | CF TP   1922 | CF FP    692
+  gamma=0.8  AL    962 | CF TP   1946 | CF FP    522
+  gamma=0.5  AL    962 | CF TP   1934 | CF FP    557
+  gamma=0.2  AL    962 | CF TP   1914 | CF FP    581
+
+== how much each gamma changed the selection (al_diversity.csv, mean per session)
+  gamma=0.8: queries shared with plain uncertainty top-8 7.31/8 | distinct clusters among the 8 2.51 | clusters per session 9.8
+  gamma=0.5: queries shared with plain uncertainty top-8 6.86/8 | distinct clusters among the 8 2.89 | clusters per session 9.8
+  gamma=0.2: queries shared with plain uncertainty top-8 6.27/8 | distinct clusters among the 8 3.47 | clusters per session 9.8
+
+== per language, IMLM Eq.1 (authors' reading), OAL / OAL-CF
+      lang            baseline |         gamma 0.8 |         gamma 0.5 |         gamma 0.2
+  ac  bas    0.5767 / 0.0210 | 0.5464 / 0.3132 | 0.3055 / 0.1041 | 0.4849 / 0.1245
+  ac  ha     0.3101 / 0.0260 | 0.0286 / 0.0362 | 0.0381 / 0.0252 | 0.0240 / 0.1024
+  ac  yo     0.2998 / 0.0276 | 0.6289 / 0.0234 | 0.1300 / 0.0339 | 0.1314 / 0.2596
+  cr  hy-AM  0.0352 / 0.0228 | 0.0136 / 0.0149 | 0.0143 / 0.0297 | 0.1129 / 0.0435
+  cr  ckb    0.0560 / 0.0558 | 0.0615 / 0.0340 | 0.0524 / 0.0567 | 0.0454 / 0.0310
+  cr  cv     0.1380 / 0.1361 | 0.1611 / 0.1385 | 0.2419 / 0.0834 | 0.1720 / 0.1305
+  cr  kmr    0.1913 / 0.1303 | 0.1488 / 0.1239 | 0.1701 / 0.1480 | 0.1249 / 0.1152
+  cr  ky     0.1633 / 0.0639 | 0.1624 / 0.0584 | 0.1017 / 0.0768 | 0.1400 / 0.0681
+  cr  sr     0.0310 / 0.0144 | 0.0269 / 0.0228 | 0.0472 / 0.0768 | 0.0268 / 0.0242
+  cr  tt     0.2217 / 0.1114 | 0.0935 / 0.0792 | 0.1284 / 0.0417 | 0.1886 / 0.1064
+  sea yue    0.3555 / 0.2590 | 0.3958 / 0.1693 | 0.2530 / 0.3118 | 0.2911 / 0.1932
+  sea id     0.0635 / 0.0312 | 0.0315 / 0.0259 | 0.0331 / 0.0260 | 0.0315 / 0.0347
+  sea vi     0.0528 / 0.0939 | 0.0574 / 0.0454 | 0.1190 / 0.0406 | 0.0669 / 0.0502
+  sa  cnh    0.0198 / 0.0182 | 0.0639 / 0.0175 | 0.0186 / 0.0166 | 0.0249 / 0.0152
+  sa  dv     0.0567 / 0.0852 | 0.1297 / 0.0768 | 0.1087 / 0.0587 | 0.1365 / 0.1054
+  sa  hi     0.1487 / 0.1793 | 0.2733 / 0.1348 | 0.2750 / 0.1651 | 0.2369 / 0.2168
+  sa  ml     0.1796 / 0.0670 | 0.0505 / 0.0379 | 0.0479 / 0.0460 | 0.0691 / 0.0512
+  sa  mr     0.0880 / 0.0725 | 0.0699 / 0.0675 | 0.1235 / 0.0626 | 0.1472 / 0.0612
+  sa  or     0.1009 / 0.0363 | 0.0529 / 0.0277 | 0.2552 / 0.0438 | 0.3742 / 0.0322
+  sa  skr    0.0627 / 0.0739 | 0.1260 / 0.0767 | 0.0281 / 0.0397 | 0.0679 / 0.1166

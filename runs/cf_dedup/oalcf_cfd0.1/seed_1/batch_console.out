@@ -1,0 +1,31 @@
+note: 2 run(s) already exist for oalcf+cfd0.1 on seed(s) 1 and are skipped.
+      see them with: python tools/compare_runs.py --list
+      to re-run and overwrite them instead, add --force
+experiment: oalcf_cfd0.1, seeds 1, 18 runs, 2 at a time
+progress:   tail -f runs/cf_dedup/oalcf_cfd0.1/seed_1/progress.log
+/Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/venv/lib/python3.11/site-packages/scipy/stats/_morestats.py:3414: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "
+wrote runs/INVENTORY.md (872 runs, 26 settings)
+
+saving comparisons to runs/comparisons/ ...
+      oalcf+cfd0.1 better in 3/20 languages
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds1_IMLM_eq1/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 3/20 languages
+      per seed (oalcf+cfd0.1 better in ... of the languages that seed has):
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds1-2_IMLM_eq1/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 16/20 languages
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds1_IMLM_thesis/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 17/20 languages
+      per seed (oalcf+cfd0.1 better in ... of the languages that seed has):
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds1-2_IMLM_thesis/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 16/20 languages
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds1_IMLM_repo_expert/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 17/20 languages
+      per seed (oalcf+cfd0.1 better in ... of the languages that seed has):
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds1-2_IMLM_repo_expert/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 3/20 languages
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds1_DCF/ (report.txt, table.csv)
+      oalcf+cfd0.1 better in 3/20 languages
+      per seed (oalcf+cfd0.1 better in ... of the languages that seed has):
+      saved to runs/comparisons/cf_dedup/oalcf_vs_oalcf_cfd0.1_seeds1-2_DCF/ (report.txt, table.csv)
+done.

@@ -1,0 +1,42 @@
+10-10 01:33 === oalcf_cfd0.1 seed 2: queued in a batch of 20 runs, 2 at a time
+10-10 01:33 start: seed_2/oalcf_cfd0.1/ac_bas
+10-10 01:33 start: seed_2/oalcf_cfd0.1/ac_ha
+10-10 01:52 done:  seed_2/oalcf_cfd0.1/ac_bas  exit 0  19 min
+10-10 01:52 start: seed_2/oalcf_cfd0.1/ac_yo
+10-10 01:54 done:  seed_2/oalcf_cfd0.1/ac_ha  exit 0  20 min
+10-10 01:54 start: seed_2/oalcf_cfd0.1/cr_hy-AM
+10-10 02:19 done:  seed_2/oalcf_cfd0.1/ac_yo  exit 0  27 min
+10-10 02:19 start: seed_2/oalcf_cfd0.1/cr_ckb
+10-10 03:23 done:  seed_2/oalcf_cfd0.1/cr_hy-AM  exit 0  89 min
+10-10 03:23 start: seed_2/oalcf_cfd0.1/cr_cv
+10-10 04:18 done:  seed_2/oalcf_cfd0.1/cr_cv  exit 0  55 min
+10-10 04:18 start: seed_2/oalcf_cfd0.1/cr_kmr
+10-10 04:21 done:  seed_2/oalcf_cfd0.1/cr_ckb  exit 0  121 min
+10-10 04:21 start: seed_2/oalcf_cfd0.1/cr_ky
+10-10 05:40 done:  seed_2/oalcf_cfd0.1/cr_ky  exit 0  78 min
+10-10 05:40 start: seed_2/oalcf_cfd0.1/cr_sr
+10-10 06:00 done:  seed_2/oalcf_cfd0.1/cr_kmr  exit 0  102 min
+10-10 06:00 start: seed_2/oalcf_cfd0.1/cr_tt
+10-10 06:32 done:  seed_2/oalcf_cfd0.1/cr_sr  exit 0  51 min
+10-10 06:32 start: seed_2/oalcf_cfd0.1/sea_yue
+10-10 07:51 done:  seed_2/oalcf_cfd0.1/sea_yue  exit 0  78 min
+10-10 07:51 start: seed_2/oalcf_cfd0.1/sea_id
+10-10 08:30 done:  seed_2/oalcf_cfd0.1/cr_tt  exit 0  149 min
+10-10 08:30 start: seed_2/oalcf_cfd0.1/sea_vi
+10-10 08:50 done:  seed_2/oalcf_cfd0.1/sea_id  exit 0  59 min
+10-10 08:50 start: seed_2/oalcf_cfd0.1/sa_cnh
+10-10 09:18 done:  seed_2/oalcf_cfd0.1/sa_cnh  exit 0  27 min
+10-10 09:18 start: seed_2/oalcf_cfd0.1/sa_dv
+10-10 09:23 done:  seed_2/oalcf_cfd0.1/sea_vi  exit 0  52 min
+10-10 09:23 start: seed_2/oalcf_cfd0.1/sa_hi
+10-10 09:58 done:  seed_2/oalcf_cfd0.1/sa_dv  exit 0  39 min
+10-10 09:58 start: seed_2/oalcf_cfd0.1/sa_ml
+10-10 10:29 done:  seed_2/oalcf_cfd0.1/sa_hi  exit 0  66 min
+10-10 10:29 start: seed_2/oalcf_cfd0.1/sa_mr
+10-10 10:31 done:  seed_2/oalcf_cfd0.1/sa_ml  exit 0  33 min
+10-10 10:31 start: seed_2/oalcf_cfd0.1/sa_or
+10-10 10:53 done:  seed_2/oalcf_cfd0.1/sa_or  exit 0  22 min
+10-10 10:53 start: seed_2/oalcf_cfd0.1/sa_skr
+10-10 10:59 done:  seed_2/oalcf_cfd0.1/sa_mr  exit 0  29 min
+10-10 11:21 done:  seed_2/oalcf_cfd0.1/sa_skr  exit 0  27 min
+10-10 11:21 === batch finished

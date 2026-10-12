@@ -1,0 +1,42 @@
+09-26 12:06 === oalcf_baseline seed 2: queued in a batch of 20 runs, 2 at a time
+09-26 12:06 start: seed_2/oalcf_baseline/ac_bas
+09-26 12:06 start: seed_2/oalcf_baseline/ac_ha
+09-26 12:25 done:  seed_2/oalcf_baseline/ac_ha  exit 0  18 min
+09-26 12:25 start: seed_2/oalcf_baseline/ac_yo
+09-26 12:27 done:  seed_2/oalcf_baseline/ac_bas  exit 0  20 min
+09-26 12:27 start: seed_2/oalcf_baseline/cr_hy-AM
+09-26 12:55 done:  seed_2/oalcf_baseline/ac_yo  exit 0  29 min
+09-26 12:55 start: seed_2/oalcf_baseline/cr_ckb
+09-26 13:52 done:  seed_2/oalcf_baseline/cr_hy-AM  exit 0  85 min
+09-26 13:52 start: seed_2/oalcf_baseline/cr_cv
+09-26 14:43 done:  seed_2/oalcf_baseline/cr_cv  exit 0  51 min
+09-26 14:43 start: seed_2/oalcf_baseline/cr_kmr
+09-26 15:04 done:  seed_2/oalcf_baseline/cr_ckb  exit 0  128 min
+09-26 15:04 start: seed_2/oalcf_baseline/cr_ky
+09-26 16:15 done:  seed_2/oalcf_baseline/cr_kmr  exit 0  92 min
+09-26 16:15 start: seed_2/oalcf_baseline/cr_sr
+09-26 16:16 done:  seed_2/oalcf_baseline/cr_ky  exit 0  72 min
+09-26 16:16 start: seed_2/oalcf_baseline/cr_tt
+09-26 17:07 done:  seed_2/oalcf_baseline/cr_sr  exit 0  51 min
+09-26 17:07 start: seed_2/oalcf_baseline/sea_yue
+09-26 18:31 done:  seed_2/oalcf_baseline/sea_yue  exit 0  83 min
+09-26 18:31 start: seed_2/oalcf_baseline/sea_id
+09-26 18:48 done:  seed_2/oalcf_baseline/cr_tt  exit 0  152 min
+09-26 18:48 start: seed_2/oalcf_baseline/sea_vi
+09-26 19:30 done:  seed_2/oalcf_baseline/sea_id  exit 0  59 min
+09-26 19:30 start: seed_2/oalcf_baseline/sa_cnh
+09-26 19:40 done:  seed_2/oalcf_baseline/sea_vi  exit 0  52 min
+09-26 19:40 start: seed_2/oalcf_baseline/sa_dv
+09-26 19:58 done:  seed_2/oalcf_baseline/sa_cnh  exit 0  27 min
+09-26 19:58 start: seed_2/oalcf_baseline/sa_hi
+09-26 20:18 done:  seed_2/oalcf_baseline/sa_dv  exit 0  38 min
+09-26 20:18 start: seed_2/oalcf_baseline/sa_ml
+09-26 20:52 done:  seed_2/oalcf_baseline/sa_ml  exit 0  33 min
+09-26 20:52 start: seed_2/oalcf_baseline/sa_mr
+09-26 21:12 done:  seed_2/oalcf_baseline/sa_hi  exit 0  73 min
+09-26 21:12 start: seed_2/oalcf_baseline/sa_or
+09-26 21:21 done:  seed_2/oalcf_baseline/sa_mr  exit 0  29 min
+09-26 21:21 start: seed_2/oalcf_baseline/sa_skr
+09-26 21:34 done:  seed_2/oalcf_baseline/sa_or  exit 0  22 min
+09-26 21:51 done:  seed_2/oalcf_baseline/sa_skr  exit 0  30 min
+09-26 21:51 === batch finished

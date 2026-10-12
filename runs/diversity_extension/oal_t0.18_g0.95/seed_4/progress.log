@@ -1,0 +1,42 @@
+09-19 01:04 === oal_t0.18_g0.95 seed 4: queued in a batch of 77 runs, 2 at a time
+09-19 08:57 start: seed_4/oal_t0.18_g0.95/ac_bas
+09-19 09:06 start: seed_4/oal_t0.18_g0.95/ac_ha
+09-19 09:07 done:  seed_4/oal_t0.18_g0.95/ac_bas  exit 0  10 min
+09-19 09:07 start: seed_4/oal_t0.18_g0.95/ac_yo
+09-19 09:16 done:  seed_4/oal_t0.18_g0.95/ac_ha  exit 0  10 min
+09-19 09:16 start: seed_4/oal_t0.18_g0.95/cr_hy-AM
+09-19 09:17 done:  seed_4/oal_t0.18_g0.95/ac_yo  exit 0  10 min
+09-19 09:17 start: seed_4/oal_t0.18_g0.95/cr_ckb
+09-19 09:37 done:  seed_4/oal_t0.18_g0.95/cr_hy-AM  exit 0  21 min
+09-19 09:37 start: seed_4/oal_t0.18_g0.95/cr_cv
+09-19 09:43 done:  seed_4/oal_t0.18_g0.95/cr_ckb  exit 0  25 min
+09-19 09:43 start: seed_4/oal_t0.18_g0.95/cr_kmr
+09-19 10:02 done:  seed_4/oal_t0.18_g0.95/cr_cv  exit 0  25 min
+09-19 10:02 start: seed_4/oal_t0.18_g0.95/cr_ky
+09-19 10:07 done:  seed_4/oal_t0.18_g0.95/cr_kmr  exit 0  23 min
+09-19 10:07 start: seed_4/oal_t0.18_g0.95/cr_sr
+09-19 10:26 done:  seed_4/oal_t0.18_g0.95/cr_ky  exit 0  24 min
+09-19 10:26 start: seed_4/oal_t0.18_g0.95/cr_tt
+09-19 10:30 done:  seed_4/oal_t0.18_g0.95/cr_sr  exit 0  23 min
+09-19 10:30 start: seed_4/oal_t0.18_g0.95/sea_yue
+09-19 10:49 done:  seed_4/oal_t0.18_g0.95/sea_yue  exit 0  18 min
+09-19 10:49 start: seed_4/oal_t0.18_g0.95/sea_id
+09-19 10:50 done:  seed_4/oal_t0.18_g0.95/cr_tt  exit 0  23 min
+09-19 10:50 start: seed_4/oal_t0.18_g0.95/sea_vi
+09-19 11:04 done:  seed_4/oal_t0.18_g0.95/sea_id  exit 0  15 min
+09-19 11:04 start: seed_4/oal_t0.18_g0.95/sa_cnh
+09-19 11:07 done:  seed_4/oal_t0.18_g0.95/sea_vi  exit 0  16 min
+09-19 11:07 start: seed_4/oal_t0.18_g0.95/sa_dv
+09-19 11:17 done:  seed_4/oal_t0.18_g0.95/sa_cnh  exit 0  12 min
+09-19 11:17 start: seed_4/oal_t0.18_g0.95/sa_hi
+09-19 11:17 done:  seed_4/oal_t0.18_g0.95/sa_dv  exit 0  10 min
+09-19 11:17 start: seed_4/oal_t0.18_g0.95/sa_ml
+09-19 11:28 done:  seed_4/oal_t0.18_g0.95/sa_ml  exit 0  10 min
+09-19 11:28 start: seed_4/oal_t0.18_g0.95/sa_mr
+09-19 11:29 done:  seed_4/oal_t0.18_g0.95/sa_hi  exit 0  12 min
+09-19 11:29 start: seed_4/oal_t0.18_g0.95/sa_or
+09-19 11:39 done:  seed_4/oal_t0.18_g0.95/sa_mr  exit 0  11 min
+09-19 11:39 start: seed_4/oal_t0.18_g0.95/sa_skr
+09-19 11:40 done:  seed_4/oal_t0.18_g0.95/sa_or  exit 0  11 min
+09-19 11:47 done:  seed_4/oal_t0.18_g0.95/sa_skr  exit 0  7 min
+09-19 11:47 === batch finished

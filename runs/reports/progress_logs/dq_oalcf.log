@@ -1,0 +1,155 @@
+09-14 00:10 === 22 runs (gamma=1.0 check on sr, then gamma 0.8/0.5/0.2 x 7 CR languages, OAL-CF), 2 at a time
+09-14 00:10 start: cr_oalcf_dq100/sr
+09-14 00:11 start: cr_oalcf_dq080/tt
+09-14 00:13 === gamma 0.2 removed from the queue (per the human: 0.8 and 0.5 only for now; 0.2 later)
+09-14 01:07 done:  cr_oalcf_dq100/sr  exit 0  56 min
+  gamma=1.0 OAL-CF sr: scores.csv identical=True  al_samples.txt identical=True  final weights identical=True
+GAMMA=1 CHECK PASSED
+09-14 01:07 start: cr_oalcf_dq080/ckb
+09-14 02:25 done:  cr_oalcf_dq080/tt  exit 0  134 min
+09-14 02:25 start: cr_oalcf_dq080/kmr
+09-14 03:19 done:  cr_oalcf_dq080/ckb  exit 0  131 min
+09-14 03:19 start: cr_oalcf_dq080/hy-AM
+09-14 04:15 done:  cr_oalcf_dq080/kmr  exit 0  110 min
+09-14 04:15 start: cr_oalcf_dq080/ky
+09-14 04:50 done:  cr_oalcf_dq080/hy-AM  exit 0  91 min
+09-14 04:50 start: cr_oalcf_dq080/cv
+09-14 05:14 done:  cr_oalcf_dq080/ky  exit 0  59 min
+09-14 05:14 start: cr_oalcf_dq080/sr
+09-14 05:52 done:  cr_oalcf_dq080/cv  exit 0  62 min
+09-14 05:52 start: cr_oalcf_dq050/tt
+09-14 06:04 done:  cr_oalcf_dq080/sr  exit 0  49 min
+09-14 06:04 start: cr_oalcf_dq050/ckb
+09-14 08:08 done:  cr_oalcf_dq050/ckb  exit 0  123 min
+09-14 08:08 start: cr_oalcf_dq050/kmr
+09-14 08:20 done:  cr_oalcf_dq050/tt  exit 0  147 min
+09-14 08:20 start: cr_oalcf_dq050/hy-AM
+09-14 10:08 done:  cr_oalcf_dq050/kmr  exit 0  120 min
+09-14 10:08 start: cr_oalcf_dq050/ky
+09-14 10:20 done:  cr_oalcf_dq050/hy-AM  exit 0  120 min
+09-14 10:21 start: cr_oalcf_dq050/cv
+09-14 11:08 done:  cr_oalcf_dq050/ky  exit 0  60 min
+09-14 11:08 start: cr_oalcf_dq050/sr
+09-14 11:53 done:  cr_oalcf_dq050/cv  exit 0  92 min
+09-14 11:57 done:  cr_oalcf_dq050/sr  exit 0  48 min
+09-14 11:57 === all runs finished and archived; summarizing
+09-14 11:57 === complete: see runs/dq_oalcf/summary.txt
+09-14 12:19 === summary for gamma 0.8/0.5 written by tools/summarize_dq_oalcf.py (replaces the batch script's own)
+09-14 14:06 === 22 runs (gamma=1.0 check on sr, then gamma 0.8/0.5/0.2 x 7 CR languages, OAL-CF), 2 at a time
+09-14 14:06 skip (already done): cr_oalcf_dq100/sr
+  gamma=1.0 OAL-CF sr: scores.csv identical=True  al_samples.txt identical=True  final weights identical=True
+GAMMA=1 CHECK PASSED
+09-14 14:06 skip (already done): cr_oalcf_dq080/tt
+09-14 14:06 skip (already done): cr_oalcf_dq080/ckb
+09-14 14:06 skip (already done): cr_oalcf_dq080/kmr
+09-14 14:06 skip (already done): cr_oalcf_dq080/hy-AM
+09-14 14:06 skip (already done): cr_oalcf_dq080/ky
+09-14 14:06 skip (already done): cr_oalcf_dq080/cv
+09-14 14:06 skip (already done): cr_oalcf_dq080/sr
+09-14 14:06 skip (already done): cr_oalcf_dq050/tt
+09-14 14:06 skip (already done): cr_oalcf_dq050/ckb
+09-14 14:06 skip (already done): cr_oalcf_dq050/kmr
+09-14 14:06 skip (already done): cr_oalcf_dq050/hy-AM
+09-14 14:06 skip (already done): cr_oalcf_dq050/ky
+09-14 14:06 skip (already done): cr_oalcf_dq050/cv
+09-14 14:06 skip (already done): cr_oalcf_dq050/sr
+09-14 14:06 start: cr_oalcf_dq020/tt
+09-14 14:06 start: cr_oalcf_dq020/ckb
+09-14 16:12 done:  cr_oalcf_dq020/tt  exit 0  125 min
+09-14 16:12 start: cr_oalcf_dq020/kmr
+09-14 16:20 done:  cr_oalcf_dq020/ckb  exit 0  134 min
+09-14 16:20 start: cr_oalcf_dq020/hy-AM
+09-14 17:47 done:  cr_oalcf_dq020/kmr  exit 0  95 min
+09-14 17:47 start: cr_oalcf_dq020/ky
+09-14 18:29 done:  cr_oalcf_dq020/hy-AM  exit 0  128 min
+09-14 18:29 start: cr_oalcf_dq020/cv
+09-14 18:50 done:  cr_oalcf_dq020/ky  exit 0  63 min
+09-14 18:50 start: cr_oalcf_dq020/sr
+09-14 19:29 done:  cr_oalcf_dq020/cv  exit 0  60 min
+09-14 19:48 done:  cr_oalcf_dq020/sr  exit 0  57 min
+09-14 19:48 === all runs finished and archived; summarizing
+09-14 19:48 === complete: see runs/dq_oalcf/summary.txt
+09-14 23:21 === 18 runs (gamma 0.8/0.5/0.2 x sea ac, OAL-CF), 2 at a time
+09-14 23:21 start: sea_oalcf_dq080/id
+09-14 23:21 start: sea_oalcf_dq080/yue
+09-15 00:40 done:  sea_oalcf_dq080/id  exit 0  78 min
+09-15 00:40 start: sea_oalcf_dq080/vi
+09-15 00:47 done:  sea_oalcf_dq080/yue  exit 0  85 min
+09-15 00:47 start: sea_oalcf_dq050/id
+09-15 01:26 done:  sea_oalcf_dq080/vi  exit 0  45 min
+09-15 01:26 start: sea_oalcf_dq050/yue
+09-15 02:11 done:  sea_oalcf_dq050/id  exit 0  84 min
+09-15 02:11 start: sea_oalcf_dq050/vi
+09-15 02:29 done:  sea_oalcf_dq050/yue  exit 0  63 min
+09-15 02:29 start: sea_oalcf_dq020/id
+09-15 02:50 done:  sea_oalcf_dq050/vi  exit 0  39 min
+09-15 02:50 start: sea_oalcf_dq020/yue
+09-15 03:58 done:  sea_oalcf_dq020/id  exit 0  88 min
+09-15 03:58 start: sea_oalcf_dq020/vi
+09-15 04:04 done:  sea_oalcf_dq020/yue  exit 0  73 min
+09-15 04:04 start: ac_oalcf_dq080/bas
+09-15 04:23 done:  ac_oalcf_dq080/bas  exit 0  19 min
+09-15 04:23 start: ac_oalcf_dq080/yo
+09-15 04:41 done:  sea_oalcf_dq020/vi  exit 0  42 min
+09-15 04:41 start: ac_oalcf_dq080/ha
+09-15 04:50 done:  ac_oalcf_dq080/yo  exit 0  26 min
+09-15 04:50 start: ac_oalcf_dq050/bas
+09-15 05:01 done:  ac_oalcf_dq080/ha  exit 0  20 min
+09-15 05:01 start: ac_oalcf_dq050/yo
+09-15 05:08 done:  ac_oalcf_dq050/bas  exit 0  18 min
+09-15 05:08 start: ac_oalcf_dq050/ha
+09-15 05:26 done:  ac_oalcf_dq050/yo  exit 0  24 min
+09-15 05:26 start: ac_oalcf_dq020/bas
+09-15 05:27 done:  ac_oalcf_dq050/ha  exit 0  18 min
+09-15 05:27 start: ac_oalcf_dq020/yo
+09-15 05:44 done:  ac_oalcf_dq020/bas  exit 0  18 min
+09-15 05:44 start: ac_oalcf_dq020/ha
+09-15 05:51 done:  ac_oalcf_dq020/yo  exit 0  24 min
+09-15 05:58 done:  ac_oalcf_dq020/ha  exit 0  13 min
+09-15 05:58 === all runs finished and archived; summarizing
+09-15 05:58 === complete: summaries in runs/dq_oalcf/summary_*.txt
+09-15 23:35 === 21 runs (gamma 0.8/0.5/0.2 x sa, OAL-CF), 2 at a time
+09-15 23:35 start: sa_oalcf_dq080/hi
+09-15 23:35 start: sa_oalcf_dq080/dv
+09-16 00:15 done:  sa_oalcf_dq080/dv  exit 0  39 min
+09-16 00:15 start: sa_oalcf_dq080/skr
+09-16 00:32 done:  sa_oalcf_dq080/hi  exit 0  56 min
+09-16 00:32 start: sa_oalcf_dq080/cnh
+09-16 00:53 done:  sa_oalcf_dq080/skr  exit 0  37 min
+09-16 00:53 start: sa_oalcf_dq080/or
+09-16 01:03 done:  sa_oalcf_dq080/cnh  exit 0  31 min
+09-16 01:03 start: sa_oalcf_dq080/mr
+09-16 01:18 done:  sa_oalcf_dq080/or  exit 0  25 min
+09-16 01:18 start: sa_oalcf_dq080/ml
+09-16 01:34 done:  sa_oalcf_dq080/mr  exit 0  30 min
+09-16 01:34 start: sa_oalcf_dq050/hi
+09-16 01:55 done:  sa_oalcf_dq080/ml  exit 0  36 min
+09-16 01:55 start: sa_oalcf_dq050/dv
+09-16 02:27 done:  sa_oalcf_dq050/hi  exit 0  53 min
+09-16 02:27 start: sa_oalcf_dq050/skr
+09-16 02:29 done:  sa_oalcf_dq050/dv  exit 0  34 min
+09-16 02:29 start: sa_oalcf_dq050/cnh
+09-16 02:54 done:  sa_oalcf_dq050/skr  exit 0  26 min
+09-16 02:54 start: sa_oalcf_dq050/or
+09-16 02:58 done:  sa_oalcf_dq050/cnh  exit 0  28 min
+09-16 02:58 start: sa_oalcf_dq050/mr
+09-16 03:20 done:  sa_oalcf_dq050/or  exit 0  26 min
+09-16 03:20 start: sa_oalcf_dq050/ml
+09-16 03:29 done:  sa_oalcf_dq050/mr  exit 0  31 min
+09-16 03:29 start: sa_oalcf_dq020/hi
+09-16 04:02 done:  sa_oalcf_dq050/ml  exit 0  41 min
+09-16 04:02 start: sa_oalcf_dq020/dv
+09-16 04:32 done:  sa_oalcf_dq020/hi  exit 0  63 min
+09-16 04:32 start: sa_oalcf_dq020/skr
+09-16 04:37 done:  sa_oalcf_dq020/dv  exit 0  34 min
+09-16 04:37 start: sa_oalcf_dq020/cnh
+09-16 05:05 done:  sa_oalcf_dq020/skr  exit 0  32 min
+09-16 05:05 start: sa_oalcf_dq020/or
+09-16 05:06 done:  sa_oalcf_dq020/cnh  exit 0  29 min
+09-16 05:06 start: sa_oalcf_dq020/mr
+09-16 05:33 done:  sa_oalcf_dq020/or  exit 0  27 min
+09-16 05:33 start: sa_oalcf_dq020/ml
+09-16 05:36 done:  sa_oalcf_dq020/mr  exit 0  30 min
+09-16 05:47 done:  sa_oalcf_dq020/ml  exit 0  14 min
+09-16 05:47 === all runs finished and archived; summarizing
+09-16 05:47 === complete: summaries in runs/dq_oalcf/summary_*.txt

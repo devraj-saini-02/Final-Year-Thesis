@@ -1,0 +1,2 @@
+python3 run_dq.py --run_name oal_t0.18_g0.95_s3/ac_yo --lid_target yo --feat_root /Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/data/AfricanContinentLID/ecapalang/ --order_file seed3 --env_name test --auto_weight --auto_mult 10 --min_delta 1e-3 --nworkers 0 --gpus 0
+# via run_dq.py: --dq_threshold 0.18 --dq_gamma 0.95

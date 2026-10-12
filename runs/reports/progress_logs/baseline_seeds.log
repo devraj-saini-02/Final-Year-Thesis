@@ -1,0 +1,163 @@
+09-17 23:50 === seeds 1 2 3 4, arms oal: 80 jobs, 2 at a time, CPU
+09-17 23:50 start: cr_oal_s1/hy-AM
+09-17 23:50 start: cr_oal_s1/ckb
+09-18 00:08 done:  cr_oal_s1/hy-AM  exit 0  18 min
+09-18 00:08 start: cr_oal_s1/cv
+09-18 00:10 done:  cr_oal_s1/ckb  exit 0  20 min
+09-18 00:10 start: cr_oal_s1/kmr
+09-18 00:30 done:  cr_oal_s1/cv  exit 0  22 min
+09-18 00:30 start: cr_oal_s1/ky
+09-18 00:32 done:  cr_oal_s1/kmr  exit 0  21 min
+09-18 00:32 start: cr_oal_s1/sr
+09-18 00:52 done:  cr_oal_s1/ky  exit 0  21 min
+09-18 00:52 start: cr_oal_s1/tt
+09-18 00:52 done:  cr_oal_s1/sr  exit 0  20 min
+09-18 00:52 start: sea_oal_s1/yue
+09-18 01:09 done:  sea_oal_s1/yue  exit 0  16 min
+09-18 01:09 start: sea_oal_s1/id
+09-18 01:18 done:  cr_oal_s1/tt  exit 0  26 min
+09-18 01:18 start: sea_oal_s1/vi
+09-18 01:25 done:  sea_oal_s1/id  exit 0  16 min
+09-18 01:25 start: sa_oal_s1/cnh
+09-18 01:35 done:  sea_oal_s1/vi  exit 0  16 min
+09-18 01:35 start: sa_oal_s1/dv
+09-18 01:36 done:  sa_oal_s1/cnh  exit 0  10 min
+09-18 01:36 start: sa_oal_s1/hi
+09-18 01:47 done:  sa_oal_s1/dv  exit 0  12 min
+09-18 01:47 start: sa_oal_s1/ml
+09-18 01:48 done:  sa_oal_s1/hi  exit 0  11 min
+09-18 01:48 start: sa_oal_s1/mr
+09-18 01:58 done:  sa_oal_s1/ml  exit 0  11 min
+09-18 01:58 start: sa_oal_s1/or
+09-18 01:59 done:  sa_oal_s1/mr  exit 0  11 min
+09-18 01:59 start: sa_oal_s1/skr
+09-18 02:10 done:  sa_oal_s1/or  exit 0  11 min
+09-18 02:10 start: ac_oal_s1/bas
+09-18 02:11 done:  sa_oal_s1/skr  exit 0  12 min
+09-18 02:11 start: ac_oal_s1/ha
+09-18 02:20 done:  ac_oal_s1/bas  exit 0  10 min
+09-18 02:20 start: ac_oal_s1/yo
+09-18 02:21 done:  ac_oal_s1/ha  exit 0  9 min
+09-18 02:21 start: cr_oal_s2/hy-AM
+09-18 02:31 done:  ac_oal_s1/yo  exit 0  10 min
+09-18 02:31 start: cr_oal_s2/ckb
+09-18 02:44 done:  cr_oal_s2/hy-AM  exit 0  23 min
+09-18 02:44 start: cr_oal_s2/cv
+09-18 02:58 done:  cr_oal_s2/ckb  exit 0  26 min
+09-18 02:58 start: cr_oal_s2/kmr
+09-18 03:10 done:  cr_oal_s2/cv  exit 0  25 min
+09-18 03:10 start: cr_oal_s2/ky
+09-18 03:23 done:  cr_oal_s2/kmr  exit 0  25 min
+09-18 03:23 start: cr_oal_s2/sr
+09-18 03:33 done:  cr_oal_s2/ky  exit 0  23 min
+09-18 03:33 start: cr_oal_s2/tt
+09-18 03:46 done:  cr_oal_s2/sr  exit 0  22 min
+09-18 03:46 start: sea_oal_s2/yue
+09-18 04:00 done:  cr_oal_s2/tt  exit 0  26 min
+09-18 04:00 start: sea_oal_s2/id
+09-18 04:05 done:  sea_oal_s2/yue  exit 0  19 min
+09-18 04:05 start: sea_oal_s2/vi
+09-18 04:15 done:  sea_oal_s2/id  exit 0  15 min
+09-18 04:15 start: sa_oal_s2/cnh
+09-18 04:20 done:  sea_oal_s2/vi  exit 0  15 min
+09-18 04:20 start: sa_oal_s2/dv
+09-18 04:26 done:  sa_oal_s2/cnh  exit 0  10 min
+09-18 04:26 start: sa_oal_s2/hi
+09-18 04:31 done:  sa_oal_s2/dv  exit 0  11 min
+09-18 04:31 start: sa_oal_s2/ml
+09-18 04:38 done:  sa_oal_s2/hi  exit 0  12 min
+09-18 04:38 start: sa_oal_s2/mr
+09-18 04:42 done:  sa_oal_s2/ml  exit 0  11 min
+09-18 04:42 start: sa_oal_s2/or
+09-18 04:49 done:  sa_oal_s2/mr  exit 0  10 min
+09-18 04:49 start: sa_oal_s2/skr
+09-18 04:52 done:  sa_oal_s2/or  exit 0  9 min
+09-18 04:52 start: ac_oal_s2/bas
+09-18 05:00 done:  sa_oal_s2/skr  exit 0  10 min
+09-18 05:00 start: ac_oal_s2/ha
+09-18 05:00 done:  ac_oal_s2/bas  exit 0  8 min
+09-18 05:00 start: ac_oal_s2/yo
+09-18 05:08 done:  ac_oal_s2/ha  exit 0  8 min
+09-18 05:08 start: cr_oal_s3/hy-AM
+09-18 05:09 done:  ac_oal_s2/yo  exit 0  9 min
+09-18 05:09 start: cr_oal_s3/ckb
+09-18 05:31 done:  cr_oal_s3/hy-AM  exit 0  23 min
+09-18 05:31 start: cr_oal_s3/cv
+09-18 05:35 done:  cr_oal_s3/ckb  exit 0  25 min
+09-18 05:35 start: cr_oal_s3/kmr
+09-18 05:57 done:  cr_oal_s3/cv  exit 0  26 min
+09-18 05:57 start: cr_oal_s3/ky
+09-18 05:59 done:  cr_oal_s3/kmr  exit 0  24 min
+09-18 05:59 start: cr_oal_s3/sr
+09-18 06:21 done:  cr_oal_s3/ky  exit 0  24 min
+09-18 06:21 start: cr_oal_s3/tt
+09-18 06:22 done:  cr_oal_s3/sr  exit 0  22 min
+09-18 06:22 start: sea_oal_s3/yue
+09-18 06:39 done:  sea_oal_s3/yue  exit 0  17 min
+09-18 06:39 start: sea_oal_s3/id
+09-18 06:46 done:  cr_oal_s3/tt  exit 0  24 min
+09-18 06:46 start: sea_oal_s3/vi
+09-18 06:56 done:  sea_oal_s3/id  exit 0  16 min
+09-18 06:56 start: sa_oal_s3/cnh
+09-18 07:04 done:  sea_oal_s3/vi  exit 0  17 min
+09-18 07:04 start: sa_oal_s3/dv
+09-18 07:07 done:  sa_oal_s3/cnh  exit 0  10 min
+09-18 07:07 start: sa_oal_s3/hi
+09-18 07:16 done:  sa_oal_s3/dv  exit 0  11 min
+09-18 07:16 start: sa_oal_s3/ml
+09-18 07:19 done:  sa_oal_s3/hi  exit 0  11 min
+09-18 07:19 start: sa_oal_s3/mr
+09-18 07:27 done:  sa_oal_s3/ml  exit 0  11 min
+09-18 07:27 start: sa_oal_s3/or
+09-18 07:30 done:  sa_oal_s3/mr  exit 0  10 min
+09-18 07:30 start: sa_oal_s3/skr
+09-18 07:39 done:  sa_oal_s3/or  exit 0  11 min
+09-18 07:39 start: ac_oal_s3/bas
+09-18 07:42 done:  sa_oal_s3/skr  exit 0  11 min
+09-18 07:42 start: ac_oal_s3/ha
+09-18 07:48 done:  ac_oal_s3/bas  exit 0  9 min
+09-18 07:48 start: ac_oal_s3/yo
+09-18 07:51 done:  ac_oal_s3/ha  exit 0  8 min
+09-18 07:51 start: cr_oal_s4/hy-AM
+09-18 07:58 done:  ac_oal_s3/yo  exit 0  10 min
+09-18 07:58 start: cr_oal_s4/ckb
+09-18 08:12 done:  cr_oal_s4/hy-AM  exit 0  21 min
+09-18 08:12 start: cr_oal_s4/cv
+09-18 08:23 done:  cr_oal_s4/ckb  exit 0  24 min
+09-18 08:23 start: cr_oal_s4/kmr
+09-18 08:37 done:  cr_oal_s4/cv  exit 0  24 min
+09-18 08:37 start: cr_oal_s4/ky
+09-18 08:48 done:  cr_oal_s4/kmr  exit 0  24 min
+09-18 08:48 start: cr_oal_s4/sr
+09-18 09:01 done:  cr_oal_s4/ky  exit 0  23 min
+09-18 09:01 start: cr_oal_s4/tt
+09-18 09:10 done:  cr_oal_s4/sr  exit 0  22 min
+09-18 09:10 start: sea_oal_s4/yue
+09-18 09:25 done:  cr_oal_s4/tt  exit 0  23 min
+09-18 09:25 start: sea_oal_s4/id
+09-18 09:30 done:  sea_oal_s4/yue  exit 0  19 min
+09-18 09:30 start: sea_oal_s4/vi
+09-18 09:40 done:  sea_oal_s4/id  exit 0  15 min
+09-18 09:40 start: sa_oal_s4/cnh
+09-18 09:47 done:  sea_oal_s4/vi  exit 0  17 min
+09-18 09:47 start: sa_oal_s4/dv
+09-18 09:51 done:  sa_oal_s4/cnh  exit 0  11 min
+09-18 09:51 start: sa_oal_s4/hi
+09-18 09:58 done:  sa_oal_s4/dv  exit 0  10 min
+09-18 09:58 start: sa_oal_s4/ml
+09-18 10:03 done:  sa_oal_s4/hi  exit 0  11 min
+09-18 10:03 start: sa_oal_s4/mr
+09-18 10:10 done:  sa_oal_s4/ml  exit 0  11 min
+09-18 10:10 start: sa_oal_s4/or
+09-18 10:14 done:  sa_oal_s4/mr  exit 0  10 min
+09-18 10:14 start: sa_oal_s4/skr
+09-18 10:21 done:  sa_oal_s4/or  exit 0  11 min
+09-18 10:21 start: ac_oal_s4/bas
+09-18 10:26 done:  sa_oal_s4/skr  exit 0  11 min
+09-18 10:26 start: ac_oal_s4/ha
+09-18 10:30 done:  ac_oal_s4/bas  exit 0  9 min
+09-18 10:30 start: ac_oal_s4/yo
+09-18 10:35 done:  ac_oal_s4/ha  exit 0  9 min
+09-18 10:39 done:  ac_oal_s4/yo  exit 0  8 min
+09-18 10:39 === all jobs finished; summarizing
+09-18 10:39 === complete: see runs/baseline_seeds/summary.txt

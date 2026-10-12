@@ -1,0 +1,42 @@
+10-11 22:06 === oalcf_cfd0.1 seed 0: queued in a batch of 20 runs, 2 at a time
+10-11 22:06 start: cf_dedup/oalcf_cfd0.1/seed_0/ac_bas
+10-11 22:06 start: cf_dedup/oalcf_cfd0.1/seed_0/ac_ha
+10-11 22:21 done:  cf_dedup/oalcf_cfd0.1/seed_0/ac_ha  exit 0  15 min
+10-11 22:21 start: cf_dedup/oalcf_cfd0.1/seed_0/ac_yo
+10-11 22:23 done:  cf_dedup/oalcf_cfd0.1/seed_0/ac_bas  exit 0  17 min
+10-11 22:23 start: cf_dedup/oalcf_cfd0.1/seed_0/cr_hy-AM
+10-11 22:45 done:  cf_dedup/oalcf_cfd0.1/seed_0/ac_yo  exit 0  23 min
+10-11 22:45 start: cf_dedup/oalcf_cfd0.1/seed_0/cr_ckb
+10-12 00:02 done:  cf_dedup/oalcf_cfd0.1/seed_0/cr_hy-AM  exit 0  99 min
+10-12 00:02 start: cf_dedup/oalcf_cfd0.1/seed_0/cr_cv
+10-12 01:01 done:  cf_dedup/oalcf_cfd0.1/seed_0/cr_ckb  exit 0  135 min
+10-12 01:01 start: cf_dedup/oalcf_cfd0.1/seed_0/cr_kmr
+10-12 01:05 done:  cf_dedup/oalcf_cfd0.1/seed_0/cr_cv  exit 0  62 min
+10-12 01:05 start: cf_dedup/oalcf_cfd0.1/seed_0/cr_ky
+10-12 02:03 done:  cf_dedup/oalcf_cfd0.1/seed_0/cr_ky  exit 0  58 min
+10-12 02:03 start: cf_dedup/oalcf_cfd0.1/seed_0/cr_sr
+10-12 02:31 done:  cf_dedup/oalcf_cfd0.1/seed_0/cr_kmr  exit 0  90 min
+10-12 02:31 start: cf_dedup/oalcf_cfd0.1/seed_0/cr_tt
+10-12 02:54 done:  cf_dedup/oalcf_cfd0.1/seed_0/cr_sr  exit 0  51 min
+10-12 02:54 start: cf_dedup/oalcf_cfd0.1/seed_0/sea_yue
+10-12 03:58 done:  cf_dedup/oalcf_cfd0.1/seed_0/sea_yue  exit 0  64 min
+10-12 03:58 start: cf_dedup/oalcf_cfd0.1/seed_0/sea_id
+10-12 04:25 done:  cf_dedup/oalcf_cfd0.1/seed_0/cr_tt  exit 0  114 min
+10-12 04:25 start: cf_dedup/oalcf_cfd0.1/seed_0/sea_vi
+10-12 05:21 done:  cf_dedup/oalcf_cfd0.1/seed_0/sea_id  exit 0  82 min
+10-12 05:21 start: cf_dedup/oalcf_cfd0.1/seed_0/sa_cnh
+10-12 05:27 done:  cf_dedup/oalcf_cfd0.1/seed_0/sea_vi  exit 0  61 min
+10-12 05:27 start: cf_dedup/oalcf_cfd0.1/seed_0/sa_dv
+10-12 05:49 done:  cf_dedup/oalcf_cfd0.1/seed_0/sa_cnh  exit 0  28 min
+10-12 05:49 start: cf_dedup/oalcf_cfd0.1/seed_0/sa_hi
+10-12 06:05 done:  cf_dedup/oalcf_cfd0.1/seed_0/sa_dv  exit 0  38 min
+10-12 06:05 start: cf_dedup/oalcf_cfd0.1/seed_0/sa_ml
+10-12 06:25 done:  cf_dedup/oalcf_cfd0.1/seed_0/sa_ml  exit 0  20 min
+10-12 06:25 start: cf_dedup/oalcf_cfd0.1/seed_0/sa_mr
+10-12 06:48 done:  cf_dedup/oalcf_cfd0.1/seed_0/sa_hi  exit 0  59 min
+10-12 06:48 start: cf_dedup/oalcf_cfd0.1/seed_0/sa_or
+10-12 06:50 done:  cf_dedup/oalcf_cfd0.1/seed_0/sa_mr  exit 0  24 min
+10-12 06:50 start: cf_dedup/oalcf_cfd0.1/seed_0/sa_skr
+10-12 07:16 done:  cf_dedup/oalcf_cfd0.1/seed_0/sa_or  exit 0  28 min
+10-12 07:19 done:  cf_dedup/oalcf_cfd0.1/seed_0/sa_skr  exit 0  29 min
+10-12 07:19 === batch finished

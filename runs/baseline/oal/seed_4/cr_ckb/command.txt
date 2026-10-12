@@ -1,0 +1,1 @@
+python3 run.py --run_name cr_oal_s4/ckb --lid_target ckb --feat_root /Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/data/CaucasusRegionLID/ecapalang/ --order_file seed4 --env_name test --auto_weight --auto_mult 10 --min_delta 1e-3 --nworkers 0 --gpus 0

@@ -1,0 +1,83 @@
+09-12 20:59 === baseline batch started: 40 jobs, 2 at a time, CPU
+09-12 20:59 start: cr_oalcf/hy-AM
+09-12 20:59 start: cr_oalcf/ckb
+09-12 22:39 done:  cr_oalcf/hy-AM  exit 0  100 min
+09-12 22:39 start: cr_oalcf/cv
+09-12 23:18 done:  cr_oalcf/ckb  exit 0  138 min
+09-12 23:18 start: cr_oalcf/kmr
+09-12 23:48 done:  cr_oalcf/cv  exit 0  69 min
+09-12 23:48 start: cr_oalcf/ky
+09-13 00:59 done:  cr_oalcf/kmr  exit 0  101 min
+09-13 00:59 start: cr_oalcf/sr
+09-13 01:05 done:  cr_oalcf/ky  exit 0  76 min
+09-13 01:05 start: cr_oalcf/tt
+09-13 01:54 done:  cr_oalcf/sr  exit 0  55 min
+09-13 01:54 start: sea_oalcf/yue
+09-13 03:01 done:  sea_oalcf/yue  exit 0  66 min
+09-13 03:01 start: sea_oalcf/id
+09-13 03:27 done:  cr_oalcf/tt  exit 0  142 min
+09-13 03:27 start: sea_oalcf/vi
+09-13 04:25 done:  sea_oalcf/id  exit 0  84 min
+09-13 04:25 start: sa_oalcf/cnh
+09-13 04:31 done:  sea_oalcf/vi  exit 0  63 min
+09-13 04:31 start: sa_oalcf/dv
+09-13 04:54 done:  sa_oalcf/cnh  exit 0  29 min
+09-13 04:54 start: sa_oalcf/hi
+09-13 05:10 done:  sa_oalcf/dv  exit 0  39 min
+09-13 05:10 start: sa_oalcf/ml
+09-13 05:31 done:  sa_oalcf/ml  exit 0  20 min
+09-13 05:31 start: sa_oalcf/mr
+09-13 05:45 done:  sa_oalcf/hi  exit 0  50 min
+09-13 05:45 start: sa_oalcf/or
+09-13 05:57 done:  sa_oalcf/mr  exit 0  25 min
+09-13 05:57 start: sa_oalcf/skr
+09-13 06:14 done:  sa_oalcf/or  exit 0  29 min
+09-13 06:14 start: ac_oalcf/bas
+09-13 06:29 done:  sa_oalcf/skr  exit 0  31 min
+09-13 06:29 start: ac_oalcf/ha
+09-13 06:36 done:  ac_oalcf/bas  exit 0  21 min
+09-13 06:36 start: ac_oalcf/yo
+09-13 06:46 done:  ac_oalcf/ha  exit 0  17 min
+09-13 06:46 start: cr_oal/hy-AM
+09-13 06:56 done:  ac_oalcf/yo  exit 0  20 min
+09-13 06:56 start: cr_oal/ckb
+09-13 07:06 done:  cr_oal/hy-AM  exit 0  19 min
+09-13 07:06 start: cr_oal/cv
+09-13 07:17 done:  cr_oal/ckb  exit 0  20 min
+09-13 07:17 start: cr_oal/kmr
+09-13 07:25 done:  cr_oal/cv  exit 0  19 min
+09-13 07:25 start: cr_oal/ky
+09-13 07:37 done:  cr_oal/kmr  exit 0  20 min
+09-13 07:37 start: cr_oal/sr
+09-13 07:47 done:  cr_oal/ky  exit 0  22 min
+09-13 07:47 start: cr_oal/tt
+09-13 08:01 done:  cr_oal/sr  exit 0  23 min
+09-13 08:01 start: sea_oal/yue
+09-13 08:13 done:  cr_oal/tt  exit 0  25 min
+09-13 08:13 start: sea_oal/id
+09-13 08:20 done:  sea_oal/yue  exit 0  18 min
+09-13 08:20 start: sea_oal/vi
+09-13 08:30 done:  sea_oal/id  exit 0  16 min
+09-13 08:30 start: sa_oal/cnh
+09-13 08:37 done:  sea_oal/vi  exit 0  17 min
+09-13 08:37 start: sa_oal/dv
+09-13 08:41 done:  sa_oal/cnh  exit 0  11 min
+09-13 08:41 start: sa_oal/hi
+09-13 08:49 done:  sa_oal/dv  exit 0  11 min
+09-13 08:49 start: sa_oal/ml
+09-13 08:53 done:  sa_oal/hi  exit 0  12 min
+09-13 08:53 start: sa_oal/mr
+09-13 09:00 done:  sa_oal/ml  exit 0  10 min
+09-13 09:00 start: sa_oal/or
+09-13 09:04 done:  sa_oal/mr  exit 0  10 min
+09-13 09:04 start: sa_oal/skr
+09-13 09:10 done:  sa_oal/or  exit 0  10 min
+09-13 09:10 start: ac_oal/bas
+09-13 09:15 done:  sa_oal/skr  exit 0  11 min
+09-13 09:15 start: ac_oal/ha
+09-13 09:19 done:  ac_oal/bas  exit 0  9 min
+09-13 09:19 start: ac_oal/yo
+09-13 09:25 done:  ac_oal/ha  exit 0  9 min
+09-13 09:28 done:  ac_oal/yo  exit 0  8 min
+09-13 09:28 === all jobs finished; scoring
+09-13 09:28 === batch complete: see runs/baseline_scores.txt and runs/baseline_health.txt

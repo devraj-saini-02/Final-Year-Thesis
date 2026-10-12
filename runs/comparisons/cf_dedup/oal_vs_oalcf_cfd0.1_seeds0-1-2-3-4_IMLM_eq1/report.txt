@@ -1,0 +1,44 @@
+
+IMLM_eq1: oalcf+cfd0.1  vs  oal   (lower is better)
+seeds [0, 1, 2, 3, 4], 20/20 languages
+
+       lang                oal     oalcf+cfd0.1    change   better         
+   ac  bas              0.1435           0.0371      -74%   oalcf+cfd0.1   
+   ac  ha               0.0979           0.0324      -67%   oalcf+cfd0.1   
+   ac  yo               0.1432           0.0449      -69%   oalcf+cfd0.1   
+   cr  hy-AM            0.0411           0.0222      -46%   oalcf+cfd0.1   
+   cr  ckb              0.0627           0.0450      -28%   oalcf+cfd0.1   
+   cr  cv               0.1606           0.0812      -49%   oalcf+cfd0.1   
+   cr  kmr              0.1419           0.0872      -39%   oalcf+cfd0.1   
+   cr  ky               0.1348           0.0908      -33%   oalcf+cfd0.1   
+   cr  sr               0.0485           0.0274      -43%   oalcf+cfd0.1   
+   cr  tt               0.1467           0.0634      -57%   oalcf+cfd0.1   
+   sea yue              0.4124           0.3191      -23%   oalcf+cfd0.1   
+   sea id               0.0506           0.0248      -51%   oalcf+cfd0.1   
+   sea vi               0.0721           0.0548      -24%   oalcf+cfd0.1   
+   sa  cnh              0.0281           0.0265       -6%   oalcf+cfd0.1   
+   sa  dv               0.0866           0.0700      -19%   oalcf+cfd0.1   
+   sa  hi               0.2055           0.1476      -28%   oalcf+cfd0.1   
+   sa  ml               0.0954           0.0447      -53%   oalcf+cfd0.1   
+   sa  mr               0.0595           0.0340      -43%   oalcf+cfd0.1   
+   sa  or               0.1047           0.0415      -60%   oalcf+cfd0.1   
+   sa  skr              0.0949           0.0770      -19%   oalcf+cfd0.1   
+
+   oalcf+cfd0.1 better in 20/20 languages
+   mean 0.1165 -> 0.0686 (-41%)
+   one-sided Wilcoxon (is oalcf+cfd0.1 lower?): p = 0.0000   SIGNIFICANT at 0.05
+   median per-language change -43%, worst -6% (cnh), best -74% (bas)
+
+   per corpus:
+      African Continent  3/3 better | mean 0.1282 -> 0.0381 (-70%)
+      Caucasus Region    7/7 better | mean 0.1052 -> 0.0596 (-43%)
+      Southeast Asia     3/3 better | mean 0.1784 -> 0.1329 (-25%)
+      South Asia         7/7 better | mean 0.0964 -> 0.0630 (-35%)
+
+   per seed (oalcf+cfd0.1 better in ... of the languages that seed has):
+      seed 0: 16/20 | mean 0.1576 -> 0.0723 (-54%)
+      seed 1: 16/20 | mean 0.1103 -> 0.0742 (-33%)
+      seed 2: 18/20 | mean 0.1106 -> 0.0580 (-48%)
+      seed 3: 16/20 | mean 0.1024 -> 0.0549 (-46%)
+      seed 4: 15/20 | mean 0.1018 -> 0.0835 (-18%)
+   (per-seed rows are for inspection; the test above is the one to report)

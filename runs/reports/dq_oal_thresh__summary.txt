@@ -1,0 +1,41 @@
+Diversity extension with OAL at tighter cluster thresholds, seed 0, CPU
+
+A cluster's 2nd pick is multiplied by gamma**(1/q); q = quota of a typical clip's cluster
+  threshold 0.25: q 4.30 | 0.18: q 0.95 | 0.16: q 0.47   (docs/other/CLUSTER_OBSERVATIONS.md 3a)
+
+== threshold 0.18, gamma 0.95   (20/20 runs OK)
+   IMLM Eq.1 (authors)  better in 13/20 | mean 0.1576 -> 0.1418 | p = 0.2608
+   IMLM repo            better in 13/20 | mean 0.1658 -> 0.1487 | p = 0.2490
+   DCF                  better in 12/20 | mean 0.1112 -> 0.0994 | p = 0.2490
+   selection: 1.21 of 8 queries changed per session | picks land in 5.79 distinct clusters | clusters/session 70.7 (singletons 32.8)
+   cost: a pick moved in 59% of sessions | uncertainty given up 0.4%
+
+== threshold 0.16, gamma 0.975   (20/20 runs OK)
+   IMLM Eq.1 (authors)  better in 14/20 | mean 0.1576 -> 0.1352 | p = 0.0825
+   IMLM repo            better in 13/20 | mean 0.1658 -> 0.1423 | p = 0.0884
+   DCF                  better in 13/20 | mean 0.1112 -> 0.0945 | p = 0.1081
+   selection: 0.98 of 8 queries changed per session | picks land in 6.60 distinct clusters | clusters/session 121.6 (singletons 63.4)
+   cost: a pick moved in 54% of sessions | uncertainty given up 0.2%
+
+Per language, IMLM Eq.1: baseline OAL -> each setting
+      lang     baseline        0.18:0.95       0.16:0.975
+  ac  bas        0.5767           0.5468           0.4045
+  ac  ha         0.3101           0.0284           0.0238
+  ac  yo         0.2998           0.3465           0.1146
+  cr  hy-AM      0.0352           0.0257           0.0332
+  cr  ckb        0.0560           0.0783           0.0485
+  cr  cv         0.1380           0.2885           0.1649
+  cr  kmr        0.1913           0.1587           0.1321
+  cr  ky         0.1633           0.1346           0.1046
+  cr  sr         0.0310           0.0178           0.0309
+  cr  tt         0.2217           0.1169           0.1258
+  sea yue        0.3555           0.3414           0.3594
+  sea id         0.0635           0.0387           0.0175
+  sea vi         0.0528           0.0563           0.0752
+  sa  cnh        0.0198           0.0191           0.0165
+  sa  dv         0.0567           0.0963           0.0419
+  sa  hi         0.1487           0.2152           0.2020
+  sa  ml         0.1796           0.0687           0.1625
+  sa  mr         0.0880           0.0721           0.0728
+  sa  or         0.1009           0.0787           0.4786
+  sa  skr        0.0627           0.1069           0.0943

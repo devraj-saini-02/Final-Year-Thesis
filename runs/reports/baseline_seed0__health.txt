@@ -1,0 +1,43 @@
+run                   sessions  NaN sess  weights  device  status
+ac_oal/bas               83/83         0     True     cpu  OK
+ac_oal/ha                83/83         0     True     cpu  OK
+ac_oal/yo                83/83         0     True     cpu  OK
+ac_oalcf/bas             83/83         0     True     cpu  OK
+ac_oalcf/ha              83/83         0     True     cpu  OK
+ac_oalcf/yo              83/83         0     True     cpu  OK
+cr_oal/hy-AM           159/159         0     True     cpu  OK
+cr_oal/ckb             159/159         0     True     cpu  OK
+cr_oal/cv              159/159         0     True     cpu  OK
+cr_oal/kmr             159/159         0     True     cpu  OK
+cr_oal/ky              159/159         0     True     cpu  OK
+cr_oal/sr              159/159         0     True     cpu  OK
+cr_oal/tt              159/159         0     True     cpu  OK
+cr_oalcf/hy-AM         159/159         0     True     cpu  OK
+cr_oalcf/ckb           159/159         0     True     cpu  OK
+cr_oalcf/cv            159/159         0     True     cpu  OK
+cr_oalcf/kmr           159/159         0     True     cpu  OK
+cr_oalcf/ky            159/159         0     True     cpu  OK
+cr_oalcf/sr            159/159         0     True     cpu  OK
+cr_oalcf/tt            159/159         0     True     cpu  OK
+sea_oal/yue            126/126         0     True     cpu  OK
+sea_oal/id             126/126         0     True     cpu  OK
+sea_oal/vi             126/126         0     True     cpu  OK
+sea_oalcf/yue          126/126         0     True     cpu  OK
+sea_oalcf/id           126/126         0     True     cpu  OK
+sea_oalcf/vi           126/126         0     True     cpu  OK
+sa_oal/cnh               95/95         0     True     cpu  OK
+sa_oal/dv                95/95         0     True     cpu  OK
+sa_oal/hi                95/95         0     True     cpu  OK
+sa_oal/ml                95/95         0     True     cpu  OK
+sa_oal/mr                95/95         0     True     cpu  OK
+sa_oal/or                95/95         0     True     cpu  OK
+sa_oal/skr               95/95         0     True     cpu  OK
+sa_oalcf/cnh             95/95         0     True     cpu  OK
+sa_oalcf/dv              95/95         0     True     cpu  OK
+sa_oalcf/hi              95/95         0     True     cpu  OK
+sa_oalcf/ml              95/95         0     True     cpu  OK
+sa_oalcf/mr              95/95         0     True     cpu  OK
+sa_oalcf/or              95/95         0     True     cpu  OK
+sa_oalcf/skr             95/95         0     True     cpu  OK
+
+40/40 runs OK

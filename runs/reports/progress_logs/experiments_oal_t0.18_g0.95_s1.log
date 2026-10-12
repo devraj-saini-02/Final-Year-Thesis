@@ -1,0 +1,11 @@
+09-18 23:21 === oal_t0.18_g0.95 seed 1: queued in a batch of 3 runs, 1 at a time
+09-18 23:21 start: oal_t0.18_g0.95_s1/ac_bas
+09-18 23:26 done:  oal_t0.18_g0.95_s1/ac_bas  exit 0  5 min
+09-18 23:26 start: oal_t0.18_g0.95_s1/ac_ha
+09-18 23:32 done:  oal_t0.18_g0.95_s1/ac_ha  exit 0  5 min
+09-18 23:32 start: oal_t0.18_g0.95_s1/ac_yo
+09-18 23:40 done:  oal_t0.18_g0.95_s1/ac_yo  exit 0  7 min
+09-18 23:40 === batch finished
+09-18 23:53 === oal_t0.18_g0.95 seed 1: queued in a batch of 17 runs, 2 at a time
+09-18 23:53 start: oal_t0.18_g0.95_s1/cr_hy-AM
+09-18 23:53 start: oal_t0.18_g0.95_s1/cr_ckb

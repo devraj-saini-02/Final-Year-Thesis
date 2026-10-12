@@ -1,0 +1,1 @@
+python3 run.py --run_name sea_oal/vi --lid_target vi --feat_root /Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/data/SoutheastAsiaLID/ecapalang/ --env_name test --auto_weight --auto_mult 10 --min_delta 1e-3 --nworkers 0 --gpus 0

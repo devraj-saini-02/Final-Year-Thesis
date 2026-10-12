@@ -1,0 +1,2 @@
+python3 run_dq.py --run_name oalcf_t0.1_g0.97_s0/cr_sr --lid_target sr --feat_root /Users/devrajsaini/Documents/BTP-1/Active Learning/oalcf-repro/data/CaucasusRegionLID/ecapalang/ --env_name test --auto_weight --auto_mult 10 --min_delta 1e-3 --nworkers 0 --sim_type fpstps --gpus 0
+# via run_dq.py: --dq_threshold 0.10 --dq_gamma 0.97
